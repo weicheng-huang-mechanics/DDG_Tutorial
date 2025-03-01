@@ -137,6 +137,18 @@ for timeStep=1:simParams.Nsteps
         bElement(i).nodePos_2 = getVertex(rodParams.x, bElement(i).nodeIndex(2));
         bElement(i).nodePos_3 = getVertex(rodParams.x, bElement(i).nodeIndex(3));
         
+        if (bElement(i).directSign_1 > 0)
+            bElement(i).theta_1 =    getTheta(rodParams.x, rodParams.nv, bElement(i).edgeIndex(1));
+        else
+            bElement(i).theta_1 =  - getTheta(rodParams.x, rodParams.nv, bElement(i).edgeIndex(1));
+        end
+        
+        if (bElement(i).directSign_2 > 0)
+            bElement(i).theta_2 =    getTheta(rodParams.x, rodParams.nv, bElement(i).edgeIndex(2));
+        else
+            bElement(i).theta_2 =  - getTheta(rodParams.x, rodParams.nv, bElement(i).edgeIndex(2));
+        end
+        
         bElement(i).t_1_old  = bElement(i).t_1;
         bElement(i).d_11_old = bElement(i).d_11;
         bElement(i).d_12_old = bElement(i).d_12; 
@@ -146,6 +158,16 @@ for timeStep=1:simParams.Nsteps
         bElement(i).d_22_old = bElement(i).d_22;
         
         bElement(i).refTwist_old = bElement(i).refTwist;
+        
+        cs = cos( bElement(i).theta_1 );
+        ss = sin( bElement(i).theta_1 );
+        bElement(i).m_11 =   cs * bElement(i).d_11 + ss * bElement(i).d_12;
+        bElement(i).m_12 = - ss * bElement(i).d_11 + cs * bElement(i).d_12;
+    
+        cs = cos( bElement(i).theta_2 );
+        ss = sin( bElement(i).theta_2 );
+        bElement(i).m_21 =   cs * bElement(i).d_21 + ss * bElement(i).d_22;
+        bElement(i).m_22 = - ss * bElement(i).d_21 + cs * bElement(i).d_22;
     end
     
     if (mod(timeStep, simParams.plotStep) == 0)
