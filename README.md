@@ -22,3 +22,18 @@ Flexible elastic structures, such as beams, rods, ribbons, plates, and shells, e
 
 # Buckling of an annular ribbon
 <br/><img src='assets/rod_3.gif' width="600">
+
+# Plate under gravity
+<br/><img src='assets/plate_1.gif' width="600">
+
+# Plate wrinkling under gravity
+<br/><img src='assets/plate_2.gif' width="600">
+
+# Net under gravity
+<br/><img src='assets/net_1.gif' width="600">
+
+# Buckling-induced form-finding of gridshell
+<br/><img src='assets/net_2.gif' width="600">
+
+#  Lattice structure under gravity
+<br/><img src='assets/net_3.gif' width="600">
