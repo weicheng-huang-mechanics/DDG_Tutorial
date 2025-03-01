@@ -37,3 +37,12 @@ Flexible elastic structures, such as beams, rods, ribbons, plates, and shells, e
 
 #  Lattice structure under gravity
 <br/><img src='assets/net_3.gif' width="600">
+
+#  Beam under periodic magnetic actuation
+<br/><img src='assets/robot_1.gif' width="600">
+
+#  Soft swimming robot
+<br/><img src='assets/robot_2.gif' width="600">
+
+#  Soft crawling robot
+<br/><img src='assets/robot_3.gif' width="600">
