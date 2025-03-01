@@ -6,10 +6,19 @@ Flexible elastic structures, such as beams, rods, ribbons, plates, and shells, e
 
 
 # Beam under gravity
-<br/><img src='beam_1.gif' width="600">
+<br/><img src='assets/beam_1.gif' width="600">
 
 # Beam buckling 
-<br/><img src='beam_2.gif' width="600">
+<br/><img src='assets/beam_2.gif' width="600">
 
 # Beam snapping 
-<br/><img src='beam_3.gif' width="600">
+<br/><img src='assets/beam_3.gif' width="600">
+
+# Helical rod under gravity
+<br/><img src='assets/rod_1.gif' width="600">
+
+# Shear-induced bifurcation of a buckled ribbon 
+<br/><img src='assets/rod_2.gif' width="600">
+
+# Buckling of an annular ribbon
+<br/><img src='assets/rod_3.gif' width="600">
