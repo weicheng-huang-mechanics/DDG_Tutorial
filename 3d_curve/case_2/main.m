@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('Shear-induced bifurcation of a pre-buckled ribbon \n');
 
 % input nodes
