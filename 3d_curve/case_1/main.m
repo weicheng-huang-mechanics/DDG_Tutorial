@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('3D helix under graity \n');
 
 % input nodes
