@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('Beam snapping simulation \n');
 
 % input nodes
