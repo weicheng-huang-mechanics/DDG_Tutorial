@@ -1,11 +1,11 @@
-% DDG tutorial, 3D rod 
+% DDG tutorial, 3D rod network 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('Net under gravity \n');
 
 % input nodes
