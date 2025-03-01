@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('Buckling of an annular ribbon \n');
 
 % input nodes
