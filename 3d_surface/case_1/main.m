@@ -1,11 +1,11 @@
-% DDG tutorial, 3D plate and shell 
+% DDG tutorial, 3D surface
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
+% Discrete simulation
 fprintf('Plate under gravity \n');
 
 % input nodes
