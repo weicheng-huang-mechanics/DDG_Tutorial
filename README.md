@@ -2,7 +2,7 @@
 
 ## Overview
 
-This MATLAB tutorial covers the nonlinear numerical simulation of flexible structures using the discrete differential geometry method.
+This is a MATLAB tutorial for the nonlinear numerical simulation of flexible structures using the discrete differential geometry method.
 
 # Beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
