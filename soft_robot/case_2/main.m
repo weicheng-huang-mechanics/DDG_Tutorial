@@ -6,7 +6,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Beam under gravity \n');
+fprintf('Soft swimming robot \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
