@@ -22,7 +22,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 # Buckling of an annular ribbon
 <br/><img src='assets/rod_3.gif' width="600">
 
-# Indentation of an axisymmetric shell
+# Inflation of an axisymmetric plate
 <br/><img src='assets/shell_1.gif' width="600">
 
 # Eversion of an axisymmetric shell cap
