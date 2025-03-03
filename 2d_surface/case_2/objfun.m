@@ -37,9 +37,8 @@ while (normf > tol)
     [Fg, Jg] = getFg(rodParams);
     [Fs, Js] = getFs(rodParams, sElement);
     [Fb, Jb] = getFb(rodParams, bElement);
-    [Fp, Jp] = getFp(rodParams, sElement);
     
-    Forces = (Fg + Fs + Fb + Fp);
+    Forces = (Fg + Fs + Fb);
     
     reforce = Forces(2) + Forces(4);
         
@@ -54,7 +53,7 @@ while (normf > tol)
     end
     
     % Manipulate the Jacobians
-    Jforces = Jg + Js + Jb + Jp;
+    Jforces = Jg + Js + Jb;
     Jforces = Jforces(unconsInd, unconsInd);
     
     if (rodParams.ifStatic == 1)
