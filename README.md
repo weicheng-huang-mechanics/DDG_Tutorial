@@ -28,6 +28,9 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 # Eversion of an axisymmetric shell cap
 <br/><img src='assets/shell_2.gif' width="600">
 
+# Plate under gravity
+<br/><img src='assets/plate_1.gif' width="600">
+
 # Plate wrinkling under gravity
 <br/><img src='assets/plate_2.gif' width="600">
 
