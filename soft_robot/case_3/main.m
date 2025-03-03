@@ -6,7 +6,7 @@ close all;
 clc;
 
 % Discrete Plate simulation
-fprintf('Crawling locomotion \n');
+fprintf('Soft crawling robot \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
