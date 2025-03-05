@@ -12,7 +12,7 @@ omega = systemParams.omega;
 dt = simParams.dt;
 
 % Equation of motion, m \ddot{x} + c \dot{x} + k x - F sin (\omega t) = 0 
-force = m * ( (x_new-x_old)/dt - u_old ) / dt + c * (x_new-x_old)/dt + k * (x_new-l0) +  - F0 * sin(omega * t_new);
+force = m * ( (x_new-x_old)/dt - u_old ) / dt + c * (x_new-x_old)/dt + k * (x_new-l0) - F0 * sin(omega * t_new);
 
 % Jacobian 
 jacob = m/dt^2 + c/dt + k;
