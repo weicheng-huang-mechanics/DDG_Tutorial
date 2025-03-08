@@ -21,10 +21,10 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 <br/><img src='assets/rod_3.gif' width="600">
 
 # Inflation of an axisymmetric plate
-<br/><img src='assets/shell_1.gif' width="600">
+<br/><img src='assets/ashell_1.gif' width="600">
 
 # Eversion of an axisymmetric shell cap
-<br/><img src='assets/shell_2.gif' width="600">
+<br/><img src='assets/ashell_2.gif' width="600">
 
 # Plate under gravity
 <br/><img src='assets/plate_1.gif' width="600">
