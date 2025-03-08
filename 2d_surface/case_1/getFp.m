@@ -13,7 +13,7 @@ for c=1:rodParams.ne
     
     edgeLen = norm(node_2 - node_1);
     
-    pressureLoad = - normal * edgeLen * pi * (node_1(1) + node_2(2)) * rodParams.pressure / 2; 
+    pressureLoad = - normal * edgeLen * pi * (node_1(1) + node_2(1)) * rodParams.pressure / 2; 
     
     dF = zeros(4,1);
     
