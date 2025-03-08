@@ -47,6 +47,9 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 #  Snapping of a hyperelastic torus
 <br/><img src='assets/hyper_2.gif' width="600">
 
+#  Beam under magnetic actuation
+<br/><img src='assets/robot_1.gif' width="600">
+
 #  Soft swimming robot
 <br/><img src='assets/robot_2.gif' width="600">
 
