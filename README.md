@@ -44,7 +44,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 #  Hyperelastic cable under vertical loading
 <br/><img src='assets/hyper_1.gif' width="600">
 
-#  Snap-through of a hyperelastic axisymmetric membrane
+#  Snapping of a hyperelastic torus
 <br/><img src='assets/hyper_2.gif' width="600">
 
 #  Soft swimming robot
