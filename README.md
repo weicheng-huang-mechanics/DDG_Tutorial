@@ -41,7 +41,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 #  Lattice structure under gravity
 <br/><img src='assets/net_3.gif' width="600">
 
-#  Hyperelastic cable under loading
+#  Hyperelastic cable under vertical loading
 <br/><img src='assets/hyper_1.gif' width="600">
 
 #  Snap-through of a hyperelastic axisymmetric membrane
