@@ -13,7 +13,7 @@ rodParams.nu = 0.5;
 rodParams.G = rodParams.Y/(2.0*(1.0+rodParams.nu));
 
 % Density
-rodParams.rho = 1e2;
+rodParams.rho = 1e3;
 
 % Cross-sectional radius of rod
 rodParams.r0 = 1e-2;
