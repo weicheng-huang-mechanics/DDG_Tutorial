@@ -11,7 +11,6 @@ for i = 1:2
     end
    
 end
-%consInd = [10*3+1;10*3+2;10*3+3;262*3+1;262*3+2;262*3+3];
 
 dummyInd = 1:plateParams.ndof;
 dummyInd(consInd) = 0;
