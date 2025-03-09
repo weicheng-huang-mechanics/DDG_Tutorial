@@ -1,7 +1,6 @@
 function consParams = defConsParams(plateParams)
 
 % Define fixed DOF
-%fixNode = [10;11;21;252;262;263];
 fixNode = [17;644];
 temp = 1;
 
