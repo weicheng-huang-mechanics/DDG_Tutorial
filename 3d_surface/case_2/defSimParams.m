@@ -2,7 +2,7 @@ function simParams = defSimParams()
 
 simParams = struct();
 
-simParams.totalTime = 5.0;
+simParams.totalTime = 10.0;
 
 simParams.dt = 1e-2;
 

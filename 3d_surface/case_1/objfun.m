@@ -42,13 +42,22 @@ while (normf > tol)
     Forces = Forces(unconsInd);
     
     % Equation of motion
-    f = mUncons .* ( (xUncons - x0Uncons)/dt^2 - uUncons/dt ) + viscosity * mUncons .* (xUncons - x0Uncons)/dt - Forces;
+    
+    if (plateParams.ifStatic == 1)
+        f = - Forces;
+    else
+        f = mUncons .* ( (xUncons - x0Uncons)/dt^2 - uUncons/dt ) + viscosity * mUncons .* (xUncons - x0Uncons)/dt - Forces;
+    end
     
     % Manipulate the Jacobians
-    Jforces = Jg + Js + Jb;
+    Jforces = Jg + Js + Jb ;
     Jforces = Jforces(unconsInd, unconsInd);
-    
-    J= mMat/dt^2 + viscosity * mMat/dt - Jforces;
+   
+    if (plateParams.ifStatic == 1)
+        J= - Jforces;
+    else
+        J= mMat/dt^2 + viscosity * mMat/dt - Jforces;
+    end
     
     % Newton's update
     xUncons = xUncons -  J\f;

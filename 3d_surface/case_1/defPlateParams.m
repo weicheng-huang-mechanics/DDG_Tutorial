@@ -4,16 +4,16 @@ function plateParams = defPlateParams(node, edge, triangle, simParams)
 plateParams = struct();
 
 % Young's modulus
-plateParams.Y = 1e3;
+plateParams.Y = 1e8;
 
 % Density
 plateParams.rho = 1e3;
 
-% Plate thickness
-plateParams.r0 = 1e-3;
+% Plate thhickness
+plateParams.r0 = 1e-2;
 
 % Viscosity
-plateParams.viscosity = 0.01;
+plateParams.viscosity = 0.1;
 
 % Time step size
 plateParams.dt = simParams.dt;
@@ -84,11 +84,14 @@ for i=1:plateParams.nt
 end
 
 % Gravity 
-g = [0.1; 0.1; -10.0];
+g = [0.0; 0.0; -10.0];
 
 plateParams.garr = zeros(plateParams.ndof, 1);
 for c = 1:plateParams.nv
     plateParams.garr( 3 * (c-1) + 1 : 3 * (c-1) + 3) = g;
 end
+
+% static simulation for 1, dynamic simulation for 0
+plateParams.ifStatic = 0;
 
 end

@@ -1,4 +1,4 @@
-% DDG tutorial, 3D surface
+% DDG tutorial, 3D plate and shell 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
@@ -40,7 +40,6 @@ ctime = 0.0;
 plateParams.xCons  = plateParams.x(consParams.consInd);
 plateParams.xUncons = plateParams.x(consParams.unconsInd);
 
-
 % Open file for writing
 fileID = fopen('data.txt', 'w'); 
 
@@ -69,14 +68,14 @@ for timeStep=1:simParams.Nsteps
     
     % Plot figure
     if (mod(timeStep, simParams.plotStep) == 0)
-        plotPlate(plateParams.x, sElement); 
+        plotPlate(plateParams.x, sElement);
     end
     
     % Cout data
     for i = 1:plateParams.nv
         xCurrent = getVertex(plateParams.x, i);
         fprintf(fileID, '%.4f %.4f %.4f %.4f \n', [ctime xCurrent']);  % Custom formatting
-    end 
+    end  
     
 end
 
