@@ -4,6 +4,9 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 
 # Repo struct
 - DDG_Tutorial
+  - mass_spring_system
+    - multiple_DOF: [Multiple DOF mass spring system](mass_spring_system/multiple_DOF)
+    - single_DOF: [Single DOF mass spring system](mass_spring_system/single_DOF)
   - 2d_curve
     - case_1: [Beam deflection under gravity](2d_curve/case_1)
     - case_2: [Buckling of a beam under compression](2d_curve/case_2)
@@ -18,6 +21,18 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
   - 3d_surface
     - case_1: [Plate deflection under gravity](3d_surface/case_1)
     - case_2: [Plate wrinkling under gravity](3d_surface/case_2)
+  - rod_network
+    - case_1: [Flexible net under gravity](rod_network/case_1)
+    - case_2: [Buckling-induced form-finding of gridshell](rod_network/case_2)
+    - case_3: [Lattice grid under gravity](rod_network/case_3)
+  - hyper_elastic
+    - case_1: [Hyperelastic able](hyper_elastic/case_1)
+    - case_2: [Hyperelastic axisymmetric membrane](hyper_elastic/case_2)
+  - soft_robot
+    - case_1: [Magnetic actuation](soft_robot/case_1)
+    - case_2: [Fluid-structure interaction](soft_robot/case_2)
+    - case_3: [Frictional contact](soft_robot/case_3)
+  
 # Beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
 
