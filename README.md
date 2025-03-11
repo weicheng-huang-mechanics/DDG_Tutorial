@@ -5,13 +5,19 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 # Repo struct
 - DDG_Tutorial
   - 2d_curve
-    - case_1: [beam deflection under gravity](2d_curve/case_1)
-    - case_2: 
-    - case_3
+    - case_1: [Beam deflection under gravity](2d_curve/case_1)
+    - case_2: [Buckling of a beam under compression](2d_curve/case_2)
+    - case_3: [Snapping of a pre-buckled beam](2d_curve/case_3)
   - 2d_surface
-    - Leaf 2.1
-    - Leaf 2.2
-
+    - case_1: [Inflation of the an axisymmetric plate](2d_surface/case_1)
+    - case_2: [Snap-through of the axisymmetric shell](2d_surface/case_2)
+  - 3d_curve
+    - case_1: [3D helix under gravity](3d_curve/case_1)
+    - case_2: [Bifurcation of pre-buckled ribbon](3d_curve/case_2)
+    - case_3: [Growth of annular ribbon](3d_curve/case_3)
+  - 3d_surface
+    - case_1: [Plate deflection under gravity](3d_surface/case_1)
+    - case_2: [Plate wrinkling under gravity](3d_surface/case_2)
 # Beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
 
