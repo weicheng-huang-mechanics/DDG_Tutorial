@@ -2,6 +2,16 @@
 
 This is a MATLAB tutorial for the nonlinear numerical simulation of flexible structures using the discrete differential geometry method.
 
+# Repo struct
+- DDG_Tutorial
+  - 2d_curve
+    - case_1: beam deflection under gravity (2d_curve/case_1)
+    - case_2: 
+    - case_3
+  - 2d_surface
+    - Leaf 2.1
+    - Leaf 2.2
+
 # Beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
 
