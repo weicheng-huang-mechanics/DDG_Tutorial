@@ -5,7 +5,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 # Repo struct
 - DDG_Tutorial
   - 2d_curve
-    - case_1: beam deflection under gravity (2d_curve/case_1)
+    - case_1: [beam deflection under gravity](2d_curve/case_1)
     - case_2: 
     - case_3
   - 2d_surface
