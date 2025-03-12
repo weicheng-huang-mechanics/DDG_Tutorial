@@ -21,6 +21,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
   - 3d_surface
     - case_1: [Plate deflection under gravity](3d_surface/case_1)
     - case_2: [Plate wrinkling under gravity](3d_surface/case_2)
+    - case_3: [Indentation of a cylindrical shell](3d_surface/case_3)
   - rod_network
     - case_1: [Flexible net under gravity](rod_network/case_1)
     - case_2: [Form-finding of gridshell](rod_network/case_2)
