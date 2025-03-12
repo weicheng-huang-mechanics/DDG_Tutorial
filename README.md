@@ -26,7 +26,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
     - case_2: [Form-finding of gridshell](rod_network/case_2)
     - case_3: [Lattice grid under gravity](rod_network/case_3)
   - hyper_elastic
-    - case_1: [Hyperelastic cable](hyper_elastic/case_1)
+    - case_1: [Hyperelastic planar cable](hyper_elastic/case_1)
     - case_2: [Hyperelastic axisymmetric membrane](hyper_elastic/case_2)
   - soft_robot
     - case_1: [Magnetic actuation](soft_robot/case_1)
