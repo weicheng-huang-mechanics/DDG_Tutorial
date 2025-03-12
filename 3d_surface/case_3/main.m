@@ -5,8 +5,8 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
-fprintf('Plate under gravity \n');
+% Discrete Shell simulation
+fprintf('Indentation of a cylindrical shell \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
