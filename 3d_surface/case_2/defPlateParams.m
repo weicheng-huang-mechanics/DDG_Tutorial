@@ -4,7 +4,7 @@ function plateParams = defPlateParams(node, edge, triangle, simParams)
 plateParams = struct();
 
 % Young's modulus
-plateParams.Y = 1e3;
+plateParams.Y = 1e5;
 
 % Density
 plateParams.rho = 1e3;
@@ -84,7 +84,7 @@ for i=1:plateParams.nt
 end
 
 % Gravity 
-g = [0.1; 0.1; -10.0];
+g = [1.0; 1.0; -30.0];
 
 plateParams.garr = zeros(plateParams.ndof, 1);
 for c = 1:plateParams.nv
