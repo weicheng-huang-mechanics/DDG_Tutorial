@@ -5,8 +5,8 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 # Repository structure
 - DDG_Tutorial
   - mass_spring_system
-    - multiple_DOF: [Multiple DOF mass spring system](mass_spring_system/multiple_DOF)
     - single_DOF: [Single DOF mass spring system](mass_spring_system/single_DOF)
+    - multiple_DOF: [Multiple DOF mass spring system](mass_spring_system/multiple_DOF)
   - 2d_curve
     - case_1: [Beam deflection under gravity](2d_curve/case_1)
     - case_2: [Buckling of a beam under compression](2d_curve/case_2)
