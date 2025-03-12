@@ -64,6 +64,9 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 ## Plate wrinkling under gravity
 <br/><img src='assets/plate_2.gif' width="600">
 
+## Indentation of a cylindrical shell
+<br/><img src='assets/plate_3.gif' width="600">
+
 ## Net under gravity
 <br/><img src='assets/net_1.gif' width="600">
 
