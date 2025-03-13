@@ -5,8 +5,8 @@ clear all;
 close all;
 clc;
 
-% Discrete simulation
-fprintf('Buckling of an annular ribbon \n');
+% Discrete ribbon simulation
+fprintf('Growth of an annular ribbon \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
