@@ -52,7 +52,7 @@ while (normf > tol)
     Jforces = Jforces(unconsInd, unconsInd);
     
     %J= mMat/dt^2 + viscosity * mMat/dt - Jforces;
-    J =- Jforces;
+    J = - Jforces;
     
     % Newton's update
     xUncons = xUncons -  J\f;
