@@ -1,4 +1,4 @@
-% DDG tutorial, 3D plate and shell 
+% DDG tutorial, 3d_surface
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
@@ -6,7 +6,7 @@ close all;
 clc;
 
 % Discrete Shell simulation
-fprintf('Indentation of a cylindrical shell \n');
+fprintf('Shell indentation \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
