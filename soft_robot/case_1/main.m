@@ -1,4 +1,4 @@
-% DDG tutorial, planar beam 
+% DDG tutorial, 2d_curve
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
