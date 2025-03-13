@@ -5,8 +5,8 @@ clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
-fprintf('Snapping of axis symmetric shell cap \n');
+% Axisymmetric shell simulation
+fprintf('Snapping of axisymmetric shell cap \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
