@@ -1,4 +1,4 @@
-% DDG tutorial, axisymmetric shell
+% DDG tutorial, axisymmetric membrane
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
@@ -6,7 +6,7 @@ close all;
 clc;
 
 % Discrete Plate simulation
-fprintf('Axis symmetric shell \n');
+fprintf('Axis symmetric membrane \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
