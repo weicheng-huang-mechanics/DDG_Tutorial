@@ -1,4 +1,4 @@
-% DDG tutorial, axisymmetric shell
+% DDG tutorial, 2d_surface
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
