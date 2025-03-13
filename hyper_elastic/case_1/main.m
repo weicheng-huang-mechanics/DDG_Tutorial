@@ -1,12 +1,12 @@
-% DDG tutorial, planar beam 
+% DDG tutorial, 2d_curve
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
-fprintf('Beam under gravity \n');
+% Discrete cable simulation
+fprintf('Cable under loading \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
