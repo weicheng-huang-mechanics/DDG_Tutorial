@@ -6,7 +6,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Beam Buckling simulation \n');
+fprintf('Beam buckling simulation \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
