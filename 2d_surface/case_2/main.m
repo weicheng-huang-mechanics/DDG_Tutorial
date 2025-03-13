@@ -42,15 +42,14 @@ rodParams.xUncons = rodParams.x(consParams.unconsInd);
 % Open file for writing
 fileID = fopen('data.txt', 'w');  
 
-
+% Plot data
 plotData = zeros(2,2);
 temp = 1;
+
 % Simulation loop
 for timeStep=1:simParams.Nsteps
     
     fprintf('t=%f\n', ctime);
-    
-    %rodParams.pressure = rodParams.pressure + 100 * rodParams.dt;
     
     rodParams.x(2) = rodParams.x(2) - rodParams.dt * 0.1;
     rodParams.x(4) = rodParams.x(4) - rodParams.dt * 0.1;
@@ -83,14 +82,16 @@ for timeStep=1:simParams.Nsteps
         xCurrent = getVertex(rodParams.x, i);
         fprintf(fileID, '%.4f %.4f %.4f \n', [ctime xCurrent']);  % Custom formatting
     end  
-    
+
+    % Plot data
     plotData(temp,1) = 1-rodParams.x(2);
     plotData(temp,2) = reForce;
     temp = temp + 1;
+    
 end
 
 fclose(fileID);
 
-
+% Plot result 
 figure(2)
-plot(plotData(:,1), plotData(:,2) * rodParams.r0/ (2 * pi * rodParams.EI), '-');
+plot(plotData(:,1), plotData(:,2), '-');
