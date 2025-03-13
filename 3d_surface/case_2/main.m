@@ -1,4 +1,4 @@
-% DDG tutorial, 3D surface
+% DDG tutorial, 3d_surface
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
