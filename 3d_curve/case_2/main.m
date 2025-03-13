@@ -55,7 +55,6 @@ for timeStep=1:simParams.Nsteps
     
     fprintf('t=%f\n', ctime);
     
-    
     % Compress the ribbon
     if (ctime < 3.0 && totalCompress <= inputCompress)
         
