@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete beam simulation
+% Discrete simulation
 fprintf('Beam under magnetic field \n');
 
 % input nodes
