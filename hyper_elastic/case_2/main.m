@@ -5,8 +5,8 @@ clear all;
 close all;
 clc;
 
-% Axisymmetric shell simulation
-fprintf('Axis symmetric membrane \n');
+% Axisymmetric membrane simulation
+fprintf('Inflection of axisymmetric membrane \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
@@ -36,7 +36,7 @@ rodParams.xUncons = rodParams.x(consParams.unconsInd);
 % Open file for writing
 fileID = fopen('data.txt', 'w');  
 
-%
+% plot data
 plotData = zeros(2,2);
 temp = 1;
 
@@ -44,7 +44,8 @@ temp = 1;
 for timeStep=1:simParams.Nsteps
     
     fprintf('t=%f\n', ctime);
-    
+
+    % Loading
     rodParams.pressure = rodParams.pressure - 10000 * rodParams.dt;
     
     % Initial guess
@@ -75,7 +76,8 @@ for timeStep=1:simParams.Nsteps
         xCurrent = getVertex(rodParams.x, i);
         fprintf(fileID, '%.4f %.4f %.4f \n', [ctime xCurrent']);  % Custom formatting
     end  
-    
+
+    % Plot data
     plotData(temp,1) = rodParams.pressure;
     plotData(temp,2) = rodParams.x(1);
     temp = temp + 1;
@@ -83,6 +85,6 @@ end
 
 fclose(fileID);
 
-
+% Plot data
 figure(2)
 plot(-plotData(:,1), plotData(:,2), '-');
