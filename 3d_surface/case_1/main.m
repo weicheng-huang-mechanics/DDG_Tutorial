@@ -1,4 +1,4 @@
-% DDG tutorial, 3D plate and shell 
+% DDG tutorial, 3d_surface 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
