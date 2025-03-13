@@ -1,12 +1,12 @@
-% DDG tutorial, axisymmetric shell
+% DDG tutorial, axisymmetric model
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-% Discrete Plate simulation
-fprintf('Axis symmetric shell \n');
+% Axisymmetric plate 
+fprintf('Axisymmetric plate simulation \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
