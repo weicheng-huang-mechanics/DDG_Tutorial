@@ -5,7 +5,7 @@ clear all;
 close all;
 clc;
 
-% Discrete simulation
+% Discrete rod simulation
 fprintf('3D helix under graity \n');
 
 % input nodes
