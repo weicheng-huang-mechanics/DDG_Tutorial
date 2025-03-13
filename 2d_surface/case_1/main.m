@@ -80,7 +80,8 @@ for timeStep=1:simParams.Nsteps
         xCurrent = getVertex(rodParams.x, i);
         fprintf(fileID, '%.4f %.4f %.4f \n', [ctime xCurrent']);  % Custom formatting
     end  
-    
+
+    % plot data
     plotData(temp,1) = rodParams.pressure;
     plotData(temp,2) = rodParams.x(2);
     temp = temp + 1;
@@ -88,6 +89,6 @@ end
 
 fclose(fileID);
 
-
+% Plot result
 figure(2)
 plot(plotData(:,1), plotData(:,2), '-');
