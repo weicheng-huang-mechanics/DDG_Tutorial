@@ -1,7 +1,7 @@
 function consParams = defConsParams(rodParams)
 
 % Define fixed DOF
-consInd = [1;2;3;4;2*rodParams.nv];
+consInd = [1;2;2*rodParams.nv];
 
 dummyInd = 1:rodParams.ndof;
 dummyInd(consInd) = 0;
