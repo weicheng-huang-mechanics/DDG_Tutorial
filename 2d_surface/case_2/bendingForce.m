@@ -145,7 +145,7 @@ ddkappa2(6,4) = ddkappa2(4,6);
 ddkappa2(6,5) = ddkappa2(5,6);
 
 
-dF = 2 * EI * ( dk1 * dkappa1 + dk2 * dkappa2 + nu * (dk1 * dkappa2 + dk2 * dkappa1) ) * ds;
-dJ = 2 * EI * ( dkappa1 * dkappa1' + dk1 * ddkappa1 + dkappa2 * dkappa2' + dk2 * ddkappa2 + nu * (dk1 * ddkappa2 + dkappa1 * dkappa2' + dk2 * ddkappa1 + dkappa2 * dkappa1') ) * ds;
+dF = EI * ( dk1 * dkappa1 + dk2 * dkappa2 + nu * (dk1 * dkappa2 + dk2 * dkappa1) ) * ds;
+dJ = EI * ( dkappa1 * dkappa1' + dk1 * ddkappa1 + dkappa2 * dkappa2' + dk2 * ddkappa2 + nu * (dk1 * ddkappa2 + dkappa1 * dkappa2' + dk2 * ddkappa1 + dkappa2 * dkappa1') ) * ds;
 
 end
