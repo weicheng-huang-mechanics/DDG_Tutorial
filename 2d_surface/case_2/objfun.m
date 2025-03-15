@@ -41,7 +41,7 @@ while (normf > tol)
     Forces = (Fg + Fs + Fb);
 
     % Reaction force
-    reforce = Forces(2);
+    reforce = Forces(2) + Forces(4);
         
     Forces = Forces(unconsInd);
     
