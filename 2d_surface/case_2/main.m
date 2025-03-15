@@ -50,9 +50,9 @@ temp = 1;
 for timeStep=1:simParams.Nsteps
     
     fprintf('t=%f\n', ctime);
-    
+
+    % Compress
     rodParams.x(2) = rodParams.x(2) - rodParams.dt * 0.1;
-    rodParams.x(4) = rodParams.x(4) - rodParams.dt * 0.1;
     
     % Initial guess
     rodParams.x(consParams.unconsInd) = rodParams.x(consParams.unconsInd) + rodParams.u(consParams.unconsInd) * rodParams.dt;
