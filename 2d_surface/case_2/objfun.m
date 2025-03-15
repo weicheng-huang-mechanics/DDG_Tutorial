@@ -37,11 +37,11 @@ while (normf > tol)
     [Fg, Jg] = getFg(rodParams);
     [Fs, Js] = getFs(rodParams, sElement);
     [Fb, Jb] = getFb(rodParams, bElement);
-    %[Fp, Jp] = getFp(rodParams, sElement);
     
     Forces = (Fg + Fs + Fb);
-    
-    reforce = Forces(2) + Forces(4);
+
+    % Reaction force
+    reforce = Forces(2);
         
     Forces = Forces(unconsInd);
     
