@@ -50,7 +50,7 @@ ddeps1(3,2) = ddeps1(2,3);
 ddeps1(4,2) = ddeps1(2,4); 
 ddeps1(4,3) = ddeps1(3,4);
 
-dF = 2 * EA * ( eps1 * deps1 + eps2 * deps2 + nu * (eps1 * deps2 + eps2 * deps1) ) * ds;
-dJ = 2 * EA * ( deps1 * deps1' + eps1 * ddeps1 + deps2 * deps2' + eps2 * ddeps2 + nu * (eps1 * ddeps2 + deps1 * deps2' + eps2 * ddeps1 + deps2 * deps1') ) * ds;
+dF = EA * ( eps1 * deps1 + eps2 * deps2 + nu * (eps1 * deps2 + eps2 * deps1) ) * ds;
+dJ = EA * ( deps1 * deps1' + eps1 * ddeps1 + deps2 * deps2' + eps2 * ddeps2 + nu * (eps1 * ddeps2 + deps1 * deps2' + eps2 * ddeps1 + deps2 * deps1') ) * ds;
 
 end
