@@ -37,8 +37,8 @@ function sElement = InitialStretchingElement(rodParams, edge)
         if ( abs(tangent(1)) < 1e-3 )
             
             xLocal = node_1(1);
-            sElement(i).Br(1) = cos( 4 * pi * (xLocal-0.005)/0.07 );
-            sElement(i).Br(2) = sin( 4 * pi * (xLocal-0.005)/0.07 );
+            sElement(i).Br(1) = 1000 * cos( 4 * pi * (xLocal-0.005)/0.07 );
+            sElement(i).Br(2) = 1000 * sin( 4 * pi * (xLocal-0.005)/0.07 );
         end    
     end
     
