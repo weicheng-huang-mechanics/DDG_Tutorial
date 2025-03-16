@@ -37,8 +37,8 @@ function sElement = InitialStretchingElement(rodParams, edge)
         
         sElement(i).Br = [1e1; 0.0];    
         
-        sElement(i).Br(1) = 1e1 * cos(2 * pi * (i-1) / (ne-1) );
-        sElement(i).Br(2) = 1e1 * sin(2 * pi * (i-1) / (ne-1) );
+        sElement(i).Br(1) = 1e2 * cos(2 * pi * (i-1) / (ne-1) );
+        sElement(i).Br(2) = 1e2 * sin(2 * pi * (i-1) / (ne-1) );
     end
     
     
