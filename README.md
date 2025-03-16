@@ -18,7 +18,7 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
     - case_2: [Bifurcation of pre-buckled ribbon](3d_curve/case_2)
     - case_3: [Growth of annular ribbon](3d_curve/case_3)
   - 2d_surface
-    - case_1: [Inflation of the an axisymmetric plate](2d_surface/case_1)
+    - case_1: [Inflation of an axisymmetric plate](2d_surface/case_1)
     - case_2: [Snap-through of the axisymmetric shell](2d_surface/case_2)
   - 3d_surface
     - case_1: [Plate deflection under gravity](3d_surface/case_1)
