@@ -20,8 +20,8 @@ systemParams.massMatrix = diag(systemParams.m);
 % viscosity
 systemParams.c = [0.1;0.1;0.1]; 
 
-% Spring stiffess
-systemParams.k = [1;2;3]; 
+% Spring stiffness
+systemParams.k = [10;20;30]; 
 
 % Initial spring length 
 systemParams.l0 = [1;1;1];
