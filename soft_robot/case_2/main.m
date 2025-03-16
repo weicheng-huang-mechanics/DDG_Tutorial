@@ -49,8 +49,8 @@ omega = 20.0;
 for timeStep=1:simParams.Nsteps
     
     % Update Ba
-    rodParams.Ba(1) =  10 * sin(omega * ctime); 
-    rodParams.Ba(2) =  10 * cos(omega * ctime); 
+    rodParams.Ba(1) =  sin(omega * ctime); 
+    rodParams.Ba(2) =  cos(omega * ctime); 
     
     fprintf('t=%f\n', ctime);
     
