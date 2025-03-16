@@ -38,10 +38,10 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
 
 # Demonstation
 
-## Single DOF mass-spring-damper system
+# Single DOF mass-spring-damper system
 <br/><img src='assets/dof_single.gif' width="600">
 
-## Multiple DOF mass-spring-damper system
+# Multiple DOF mass-spring-damper system
 <br/><img src='assets/dof_multiple.gif' width="600">
 
 ## Beam under gravity
