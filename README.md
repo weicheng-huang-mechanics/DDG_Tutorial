@@ -3,7 +3,9 @@
 This is a MATLAB tutorial for the nonlinear numerical simulation of flexible structures using the discrete differential geometry method.
 
 # Repository structure
+
 - DDG_Tutorial
+
   - mass_spring_system
     - single_DOF: [Single DOF mass spring system](mass_spring_system/single_DOF)
     - multiple_DOF: [Multiple DOF mass spring system](mass_spring_system/multiple_DOF)
