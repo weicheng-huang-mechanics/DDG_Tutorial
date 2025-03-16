@@ -35,6 +35,13 @@ This is a MATLAB tutorial for the nonlinear numerical simulation of flexible str
     - case_3: [Frictional contact](soft_robot/case_3)
 
 # Demonstation
+
+## Single mass-spring-damper system
+<br/><img src='assets/dof_single.gif' width="600">
+
+## Multiple mass-spring-damper system
+<br/><img src='assets/dof_multiple.gif' width="600">
+
 ## Beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
 
