@@ -74,7 +74,7 @@ for timeStep=1:simParams.Nsteps
     ctime = ctime + simParams.dt;
     
     % Plot figure
-    if (mod(timeStep, 100) == 0)
+    if (mod(timeStep, simParams.plotStep) == 0)
         plotPlate(plateParams.x, sElement); 
     end
 
