@@ -95,4 +95,4 @@ fclose(fileID);
 
 % Plot result 
 figure(2)
-plot(plotData(:,1), plotData(:,2), '-');
+plot(plotData(1:10:end,1), plotData(1:10:end,2), '-');
