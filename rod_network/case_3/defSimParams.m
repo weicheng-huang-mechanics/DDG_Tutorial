@@ -4,7 +4,7 @@ simParams = struct();
 
 simParams.totalTime = 10.0;
 
-simParams.dt = 1e-3;
+simParams.dt = 1e-2;
 
 simParams.tol = 1e-3;
 
