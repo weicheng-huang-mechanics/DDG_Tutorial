@@ -4,7 +4,7 @@ function rodParams = defRodParams(node, edge, bend, simParams)
 rodParams = struct();
 
 % Young's modulus
-rodParams.Y = 1e7;
+rodParams.Y = 1e8;
 
 % Poisson ratio
 rodParams.nu = 0.5;
