@@ -25,9 +25,9 @@ rodParams.viscosity = 0.1;
 rodParams.dt = simParams.dt;
 
 % Material properties
-rodParams.EI = rodParams.Y * rodParams.r0^3 / 12;
-rodParams.EA = rodParams.Y * rodParams.r0;
-rodParams.GJ = rodParams.G * rodParams.r0^3/3;
+rodParams.EI = rodParams.Y * pi * rodParams.r0^4 / 4;
+rodParams.EA = rodParams.Y * pi * rodParams.r0^2;
+rodParams.GJ = rodParams.G * pi * rodParams.r0^4/2;
 
 % total nodal number
 [rodParams.nv, ~] = size(node);
