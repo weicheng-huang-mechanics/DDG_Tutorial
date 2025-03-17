@@ -224,7 +224,7 @@ if (sign_2 < 0)
     DDkappa2(8, 9:11)  = - DDkappa2(8, 9:11);
 end
 
-EIMat = [ 400 * EI 0; ...
+EIMat = [EI 0; ...
     0 EI];
 kappaVector = [kappa1 kappa2];
 
