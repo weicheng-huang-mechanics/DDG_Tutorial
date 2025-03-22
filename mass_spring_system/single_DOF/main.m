@@ -33,7 +33,7 @@ simParams = struct();
 simParams.totalTime = 10;
 
 % Time step size
-simParams.dt = 1e-3; 
+simParams.dt = 1e-2; 
 
 % Tolerance
 simParams.eps = 1e-6;
