@@ -45,22 +45,22 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 ## Multiple DOF mass-spring-damper system
 <br/><img src='assets/dof_multiple.gif' width="600">
 
-## Beam under gravity
+## Deflection of a cantilever beam under gravity
 <br/><img src='assets/beam_1.gif' width="600">
 
-## Beam buckling 
+## Buckling of a compressive beam
 <br/><img src='assets/beam_2.gif' width="600">
 
-## Beam snapping 
+## Buckling of a compressive beam
 <br/><img src='assets/beam_3.gif' width="600">
 
-## Helical rod under gravity
+## Deformation of a 3D helix under gravity
 <br/><img src='assets/rod_1.gif' width="600">
 
 ## Shear-induced bifurcation of a buckled ribbon 
 <br/><img src='assets/rod_2.gif' width="600">
 
-## Buckling of an annular ribbon
+## Growth of an annular ribbon
 <br/><img src='assets/rod_3.gif' width="600">
 
 ## Inflation of an axisymmetric plate
