@@ -1,11 +1,11 @@
-% DDG tutorial, single DOF system 
+%% DDG tutorial, single DOF system 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-% Define struct
+%% Define a struct for physical system
 systemParams = struct();
 
 % Mass
@@ -26,7 +26,7 @@ systemParams.F0 = 1.0;
 % Driving frequency
 systemParams.omega = 1; % driving frequency
 
-% Define struct
+%% Define a struct for simulation parameters
 simParams = struct();
 
 % Total time
@@ -41,16 +41,16 @@ simParams.eps = 1e-6;
 % Total step
 simParams.Nsteps = round(simParams.totalTime / simParams.dt);
 
-% Initialize 
+%% Define numerical parameters
 t = linspace(0, simParams.totalTime, simParams.Nsteps);
 x = zeros(simParams.Nsteps, 1); 
 u = zeros(simParams.Nsteps, 1); 
 
-% Initial condition
+%% Define initial conditions
 x(1) = 1.0;
 u(1) = 0.0;
 
-% Simulation loop
+%% Simulation loop
 for k=1:simParams.Nsteps-1 
     
     % update DOF
