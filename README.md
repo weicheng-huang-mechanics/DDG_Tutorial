@@ -51,7 +51,7 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 ## Buckling of a compressive beam
 <br/><img src='assets/beam_2.gif' width="600">
 
-## Buckling of a compressive beam
+## Snapping of a pre-buckled beam
 <br/><img src='assets/beam_3.gif' width="600">
 
 ## Deformation of a 3D helix under gravity
@@ -78,7 +78,7 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 ## Indentation of a cylindrical shell
 <br/><img src='assets/plate_3.gif' width="600">
 
-## Net under gravity
+## Net deflection under gravity
 <br/><img src='assets/net_1.gif' width="600">
 
 ## Form-finding of gridshell
