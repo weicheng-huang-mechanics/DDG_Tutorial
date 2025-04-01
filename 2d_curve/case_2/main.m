@@ -1,5 +1,6 @@
-% DDG tutorial, 2d_curve
+%% DDG tutorial, Case 2: Buckling of a compressive beam
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;
