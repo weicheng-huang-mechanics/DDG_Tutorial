@@ -1,4 +1,14 @@
 function rodParams = defRodParams(node, edge, bend, simParams)
+% This function defines the a rod struct used for the DDG-based simulation
+%   Input:
+%       node - Nodal coordinates of the rod (nv x 2)
+%       edge - Edge connectivity list (ne x 2)
+%       bend - Bending element list(nb x 3)
+%       simParams - numerical parameters of the rod
+%   Output:
+%       rodParams - the defined rod struct contains the physical and
+%       numerical parameters of the simulated system
+
 
 % Define struct
 rodParams = struct();
