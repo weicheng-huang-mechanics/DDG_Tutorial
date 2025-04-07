@@ -1,4 +1,4 @@
-%% DDG tutorial, 3d_surface, Case 2: Plate under gravity
+%% DDG tutorial, 3d_surface, Case 2: Plate wrinkling under gravity
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 
