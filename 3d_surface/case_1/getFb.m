@@ -1,6 +1,5 @@
 function [Fb, Jb] = getFb(plateParams, bElement)
-% This function computes the bending force and jacobian of the simulated 
-% system. In this case the simulated system is a plate
+% This function computes the bending force and jacobian of the simulated system.
 % INPUTS: plateParams - the defined plate struct contains the physical and
 %                     numerical parameters of the simulated system
 %         bElement - the bending element list
