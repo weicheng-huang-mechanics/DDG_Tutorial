@@ -1,4 +1,8 @@
 function plotPlate(x, sElement)
+% This function visualizes the plate by plotting its nodal positions.
+%
+%   Input:
+%       x - Global DOF vector (ndof x 1)
 
 x1 = x(1:3:end);
 x2 = x(2:3:end);

@@ -1,5 +1,7 @@
-% DDG tutorial, 2d_curve
+%% DDG tutorial, Soft Robots, Case 3: Frictional contact
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
+
 
 clear all;
 close all;

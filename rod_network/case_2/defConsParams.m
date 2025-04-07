@@ -1,4 +1,12 @@
 function consParams = defConsParams(rodParams)
+% This function defines the constrained parameters based on the physical
+% struct's boundary conditions. 
+%   Input:
+%       rodParams - define a rod struct
+%
+%   Output:
+%       consParams - the constrained parameters contains the constrained
+%       index and unconstrained index of the discrete beam model
 
 % Define fixed DOF
 fixIndex = [1;29;30;72;73;121;122;164;165;193;194;219;220;257;258;301;302;339;340;365];

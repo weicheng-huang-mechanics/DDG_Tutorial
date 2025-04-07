@@ -1,4 +1,16 @@
 function xUncons = objfun(plateParams, simParams, consParams, sElement, bElement)
+% This function solves for the equilibrium/dynamic state of a simulated system
+%        using Newton's method on unconstrained degrees of freedom.
+%
+%   Input:
+%       plateParams - Struct containing plate material and state parameters
+%       simParams  - Struct with numerical parameters
+%       consParams - Struct with constraints (unconstrained DOF indices)
+%       sElement   - Stretching element definitions
+%       bElement   - Bending element definitions
+%
+%   Output:
+%       xUncons    - Updated positions of unconstrained DOFs after convergence
 
 % Numerical parameter
 maximum_iter = simParams.maximum_iter;

@@ -1,4 +1,13 @@
 function plateParams = defPlateParams(node, edge, triangle, simParams)
+% This function defines the a plate struct used for the DDG-based simulation
+%   Input:
+%       node - Nodal coordinates of the rod (nv x 3)
+%       edge - Edge connectivity list (ne x 2)
+%       triangle - mesh element list(nb x 4)
+%       simParams - numerical parameters of the plate
+%   Output:
+%       plateParams - the defined plate struct contains the physical and
+%       numerical parameters of the simulated system
 
 % Define struct
 plateParams = struct();

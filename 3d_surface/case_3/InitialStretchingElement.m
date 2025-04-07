@@ -1,5 +1,14 @@
-% build stretching element
 function sElement = InitialStretchingElement(plateParams, edge)
+% This function initializes stretching elements for a discrete plate
+%
+%   Input:
+%       plateParams - the defined plate struct contains the physical and
+%                   numerical parameters of the simulated system
+%       edge      - Edge connectivity list (ne x 2)
+%
+%   Output:
+%       sElement  - Struct array containing stretching element information,
+%                   including global indices, reference length, and stiffness
 
     EA = plateParams.EA;
     x  = plateParams.x;
