@@ -1,4 +1,4 @@
-% DDG tutorial, Material nonlinearity, Case 2: Hyperelastic axisymmetric membrane 
+%% DDG tutorial, Material nonlinearity, Case 2: Hyperelastic axisymmetric membrane 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 
