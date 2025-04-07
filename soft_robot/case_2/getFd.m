@@ -1,6 +1,5 @@
 function [Fd, Jd] = getFd(rodParams, sElement)
-% This function computes the damping (hydro-dynamic) force and jacobian of 
-% the simulated system. In this case the simulated system is a 2D beam
+% This function computes the damping (hydro-dynamic) force and jacobian of the simulated system.
 % INPUTS: rodParams - the defined rod struct contains the physical and
 %                     numerical parameters of the simulated system
 %         sElement - the stretching element list (nv x 2)
