@@ -1,5 +1,6 @@
 %% DDG tutorial, single DOF system 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;
