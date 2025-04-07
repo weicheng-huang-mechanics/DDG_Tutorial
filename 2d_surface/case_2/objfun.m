@@ -13,7 +13,6 @@ function [xUncons, reforce] = objfun(rodParams, simParams, consParams, sElement,
 %   Output:
 %       xUncons    - Updated positions of unconstrained DOFs after convergence
 
-
 % Numerical parameter
 maximum_iter = simParams.maximum_iter;
 tol = simParams.tol;
