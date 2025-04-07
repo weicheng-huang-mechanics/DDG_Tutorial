@@ -1,5 +1,6 @@
-% DDG tutorial, 2d_surface
+% DDG tutorial, 2d_surface, Case 1: Snap-through of the axisymmetric shell
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;
