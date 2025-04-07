@@ -1,5 +1,18 @@
 function d = parallel_transport(u, t1, t2)
 
+%   This function computes the parallel transport of a tangent vector u from 
+%   direction t1 to direction t2 on the unit sphere. If t1 and t2 are aligned,
+%   the vector remains unchanged. Otherwise, it is rotated accordingly to 
+%   preserve its orientation relative to the surface.
+%
+%   INPUTS:
+%     u  - 3x1 vector to be transported
+%     t1 - 3x1 unit tangent vector representing the starting direction
+%     t2 - 3x1 unit tangent vector representing the target direction
+%
+%   OUTPUT:
+%     d  - 3x1 vector representing the parallel transport of u from t1 to t2
+
 b = cross(t1, t2);
 if (norm(b) == 0 ) 
     d = u;
