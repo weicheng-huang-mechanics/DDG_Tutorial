@@ -1,6 +1,7 @@
 %% DDG tutorial, 3d_rod, Case 1: Deformation of a 3D helix under gravity
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
