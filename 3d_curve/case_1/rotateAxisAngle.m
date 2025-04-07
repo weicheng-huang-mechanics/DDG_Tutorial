@@ -1,17 +1,15 @@
 function u = rotateAxisAngle(v, t, angle)
-%   This function computes the parallel transport of a tangent vector u from 
-%   direction t1 to direction t2 on the unit sphere. If t1 and t2 are aligned,
-%   the vector remains unchanged. Otherwise, it is rotated accordingly to 
-%   preserve its orientation relative to the surface.
+
+%   This function computes the rotation of a vector along another vector 
+%   by an angle.
 %
 %   INPUTS:
-%     u  - 3x1 vector to be transported
-%     t1 - 3x1 unit tangent vector representing the starting direction
-%     t2 - 3x1 unit tangent vector representing the target direction
+%     v - 3x1 vector to be rotated
+%     t - 3x1 unit tangent vector 
+%     angle - a scale for the rotational angle
 %
 %   OUTPUT:
-%     d  - 3x1 vector representing the parallel transport of u from t1 to t2
-
+%     u  - 3x1 vector representing the rotational vector
 
 if (angle == 0)
     u = v;
