@@ -1,6 +1,7 @@
 %% DDG tutorial, Soft Robots, Case 3: Frictional contact
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
