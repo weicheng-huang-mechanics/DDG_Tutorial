@@ -1,5 +1,4 @@
-%% DDG tutorial, Net & gridshell, Case 1: Deflection of a flexible net under
-% gravity
+%% DDG tutorial, Net & gridshell, Case 1: Deflection of a flexible net under gravity
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 
