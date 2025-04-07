@@ -1,6 +1,7 @@
 %% DDG tutorial, Net & gridshell, Case 3: Deformation of a lattice grid under gravity
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
