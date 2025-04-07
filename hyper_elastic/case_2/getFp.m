@@ -1,9 +1,8 @@
 function [Fp, Jp] = getFp(rodParams, sElement)
-% This function computes the pressure force and jacobian of the simulated 
-% system. In this case the simulated system is a 2D membrane
+% This function computes the pressure force and jacobian of the simulated system.
 % INPUTS: rodParams - the defined rod struct contains the physical and
 %                     numerical parameters of the simulated system
-%         sElement - the stretching element list (nb x 3)
+%         sElement - the stretching element list (ne x 2)
 %
 % OUTPUTS: Fp - bending forces (2*nv x 1)
 %          Jp - bending jacobian (2*nv x 2*nv)
