@@ -1,5 +1,12 @@
 function [Fp, Jp] = getFp(rodParams, sElement)
 
+% This function computes the pressure force of the simulated system.
+% INPUTS: rodParams - the defined rod struct contains the physical and
+%                     numerical parameters of the simulated system
+%
+% OUTPUTS: Fp - gravitational forces (2*nv x 1)
+%          Jp - gravitational jacobian (2*nv x 2*nv)
+
 Fp = zeros(rodParams.ndof, 1);
 Jp = zeros(rodParams.ndof, rodParams.ndof);
 
