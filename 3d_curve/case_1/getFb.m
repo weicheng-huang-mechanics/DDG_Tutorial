@@ -1,6 +1,5 @@
 function [Fb, Jb] = getFb(rodParams, bElement)
-% This function computes the bending force and jacobian of the simulated 
-% system. In this case the simulated system is a 3D helix
+% This function computes the bending force and jacobian of the simulated system. 
 % INPUTS: rodParams - the defined rod struct contains the physical and
 %                     numerical parameters of the simulated system
 %         bElement - the bending element list
