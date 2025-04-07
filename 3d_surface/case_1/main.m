@@ -1,6 +1,7 @@
 %% DDG tutorial, 3d_surface, Case 1: Deflection of a plate under gravity
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
