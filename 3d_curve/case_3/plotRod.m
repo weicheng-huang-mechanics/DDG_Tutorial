@@ -1,4 +1,10 @@
 function plotRod(rodParams, bElement)
+% This function visualizes the rod by plotting its nodal positions.
+%
+%   Input:
+%       rodParams - the defined rod struct contains the physical and
+%                   numerical parameters of the simulated system
+%       bElement - the bending element list (nb x 3)
 
 h1 = figure(1);
 clf()

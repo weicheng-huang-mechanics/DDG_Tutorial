@@ -1,5 +1,6 @@
-% DDG tutorial, 2d_curve
+%% DDG tutorial, Soft_Robot, Case 2: Fluid-structure interaction
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;

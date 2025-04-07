@@ -1,4 +1,13 @@
 function consParams = defConsParams(plateParams)
+% This function defines the constrained parameters based on the physical
+% struct's boundary conditions. 
+%   Input:
+%       plateParams - define a plate struct
+%
+%   Output:
+%       consParams - the constrained parameters contains the constrained
+%       index and unconstrained index of the discrete plate model
+
 
 consParams = struct();
 

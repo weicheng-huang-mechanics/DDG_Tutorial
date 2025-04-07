@@ -1,13 +1,14 @@
-% DDG tutorial, 2d_curve
+%% DDG tutorial, Case 1: Deflection of a cantilever beam under gravity 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;
 clc;
 
-% Discrete simulation
 fprintf('Beam under gravity \n');
 
+%% Define geometry, connections, physical parameters, and numerical parameters
 % input nodes
 node = importdata('inputfile/node.txt');
 
@@ -17,7 +18,7 @@ edge = importdata('inputfile/edge.txt');
 % input bending element
 bend = importdata('inputfile/bend.txt');
 
-% Numerical parameter
+% Define numerical parameters
 simParams = defSimParams();
 
 % Build beam struct
@@ -29,7 +30,8 @@ sElement = InitialStretchingElement(rodParams, edge);
 % Build bending element
 bElement = InitialBendingElement(rodParams, bend, sElement);
 
-% Build boundary condition
+
+%% Define boundary conditions
 consParams = defConsParams(rodParams);
 
 % Current time
@@ -42,7 +44,7 @@ rodParams.xUncons = rodParams.x(consParams.unconsInd);
 % Open file for writing
 fileID = fopen('data.txt', 'w');  
 
-% Simulation loop
+%% Simulation loop
 for timeStep=1:simParams.Nsteps
     
     fprintf('t=%f\n', ctime);

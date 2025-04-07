@@ -1,13 +1,13 @@
-% DDG tutorial, multiple DOF system 
+%% DDG tutorial, single DOF system 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 
 clear all;
 close all;
 clc;
 
-fprintf('Multi DOF simulation \n');
+fprintf('Multi DOF simulation: \n');
 
-% Define struct
+%% Define a struct for physical system
 systemParams = struct();
 
 % Size of system, as the first node is fixed, the total DOF = N-1
@@ -32,7 +32,7 @@ systemParams.F0 = [0.0;1.0;2.0;3.0];
 % Driving frequency
 systemParams.omega = [0.0;1.0;2.0;3.0]; % driving frequency
 
-% Define struct
+%% Define a struct for simulation parameters
 simParams = struct();
 
 % Total time
@@ -47,12 +47,12 @@ simParams.eps = 1e-6;
 % Total step
 simParams.Nsteps = round(simParams.totalTime / simParams.dt);
 
-% Initialize 
+%% Define numerical parameters
 t = linspace(0, simParams.totalTime, simParams.Nsteps);
 x = zeros(systemParams.N, simParams.Nsteps); 
 u = zeros(systemParams.N, simParams.Nsteps); 
 
-% Initial conditions
+%% Define initial conditions
 x0 = [0; 1; 2; 3];
 x(1, 1) = 0;
 x(2, 1) = 1;
@@ -63,7 +63,7 @@ u(2, 1) = 0;
 u(3, 1) = 0;
 u(4, 1) = 0;
 
-% Simulation loop
+%% Simulation loop
 for ii=1:simParams.Nsteps-1
     
     % update DOF

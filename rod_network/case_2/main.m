@@ -1,5 +1,6 @@
-% DDG tutorial, 3D rod network
+%% DDG tutorial, Net & gridshell, Case 2: Form-finding of a gridshell
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
 
 clear all;
 close all;

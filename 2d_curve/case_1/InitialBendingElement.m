@@ -1,4 +1,16 @@
 function bElement = InitialBendingElement(rodParams, bend, sElement)
+% This function initializes the bending elements for a discrete rod.
+%
+%   Input:
+%       rodParams - the defined rod struct contains the physical and
+%                   numerical parameters of the simulated system
+%       bend      - Bending element list (nb x 3)
+%       sElement  - Struct array representing all edges in the rod
+%
+%   Output:
+%       bElement  - Struct array of bending elements with 
+%                   geometric and physical properties
+
 
 EI = rodParams.EI;
 x = rodParams.x;

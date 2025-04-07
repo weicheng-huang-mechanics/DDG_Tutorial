@@ -1,5 +1,7 @@
-% DDG tutorial, 3d_surface
+% DDG tutorial, 3d_surface, Case 3: Indentation of a cylindrical shell 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
+% Dezhong Tong, dezhong@umich.edu
+
 
 clear all;
 close all;

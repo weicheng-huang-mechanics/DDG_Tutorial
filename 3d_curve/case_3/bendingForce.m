@@ -1,5 +1,18 @@
 function [dF, dJ] = bendingForce(node0, node1, node2, m1e, m2e, m1f, m2f, ...
     kappaBar, l_k, EI, sign_1, sign_2)
+% This function computes the bending force and jacobian of a bending
+% element.
+% INPUTS: node0 - position of the first node in the bending element
+%         node1 - position of the second node in the bending element
+%         node2 - poisiton of the third node in the bending element
+%         m2e - material frame of the first edge 
+%         m2f - material frame of the second edge
+%         kappaBar - the natural curvature of the bending element
+%         l_k - voronoi length of the bending element
+%         EI - bending stiffness
+%
+% OUTPUTS: dF - bending forces (11 x 1)
+%          dJ - bending jacobian (11 x 11)
 
 gradKappa = zeros(11,2);
 

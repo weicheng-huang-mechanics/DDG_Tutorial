@@ -1,4 +1,9 @@
 function plotRod(x, nv, sElement)
+% This function visualizes the rod by plotting its nodal positions.
+%
+%   Input:
+%       x - Global DOF vector (ndof x 1)
+%       sElement - stretch element list (ne, 2)
 
 x1 = x(1:3:3*nv-2);
 x2 = x(2:3:3*nv-1);

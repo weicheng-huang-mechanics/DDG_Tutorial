@@ -1,4 +1,12 @@
 function [Ft, Jt] = getFt(rodParams, bElement)
+% This function computes the twisting force and jacobian of the simulated 
+% system. In this case the simulated system is a 3D helix
+% INPUTS: rodParams - the defined rod struct contains the physical and
+%                     numerical parameters of the simulated system
+%         bElement - the bending element list (ne x 3)
+%
+% OUTPUTS: Fs - twisting forces (ndof x 1)
+%          Js - twisting jacobian (ndof x ndof)
 
 Ft = zeros(rodParams.ndof, 1);
 Jt = zeros(rodParams.ndof, rodParams.ndof);
