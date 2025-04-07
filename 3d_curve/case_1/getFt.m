@@ -3,7 +3,7 @@ function [Ft, Jt] = getFt(rodParams, bElement)
 % system. In this case the simulated system is a 3D helix
 % INPUTS: rodParams - the defined rod struct contains the physical and
 %                     numerical parameters of the simulated system
-%         bElement - the bending element list (ne x 3)
+%         bElement - the bending element list
 %
 % OUTPUTS: Fs - twisting forces (ndof x 1)
 %          Js - twisting jacobian (ndof x ndof)
