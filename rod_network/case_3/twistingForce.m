@@ -11,8 +11,8 @@ function [dF, dJ] = twistingForce(node0, node1, node2, theta_e, theta_f, refTwis
 %         marches
 %         l_k - voronoi length of the bending element
 %         GJ - twisting stiffness
-%         sign_1 - ?
-%         sing_2 - ?
+%         sign_1 - the sign for the first edge
+%         sing_2 - the sign for the second edge
 %
 % OUTPUTS: dF - twisting forces (11 x 1)
 %          dJ - twisting jacobian (11 x 11)
