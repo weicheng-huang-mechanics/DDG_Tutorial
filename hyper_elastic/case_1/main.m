@@ -1,6 +1,7 @@
 %% DDG tutorial, Material nonlinearity, Case 1: Hyperelastic planar cable
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
