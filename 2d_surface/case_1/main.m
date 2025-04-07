@@ -1,4 +1,4 @@
-% DDG tutorial, 2d_surface, Case 1: Inflation of an axisymmetric plate
+%% DDG tutorial, 2d_surface, Case 1: Inflation of an axisymmetric plate
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 
