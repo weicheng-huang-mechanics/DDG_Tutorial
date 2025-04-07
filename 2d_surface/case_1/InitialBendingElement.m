@@ -1,6 +1,6 @@
 function bElement = InitialBendingElement(rodParams, bend, sElement)
 
-% This function initializes the bending elements for a discrete rod.
+% This function initializes the bending elements for a rotational shell.
 %
 %   Input:
 %       rodParams - the defined rod struct contains the physical and
