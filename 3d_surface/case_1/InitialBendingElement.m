@@ -4,7 +4,7 @@ function bElement = InitialBendingElement(rodParams, triangle)
 %   Input:
 %       rodParams - the defined plate struct contains the physical and
 %                   numerical parameters of the simulated system
-%       triangle  - the triangle mesh 
+%       triangle  - the triangle mesh (nt * 3)
 %
 %   Output:
 %       bElement  - Struct array of bending elements with 
