@@ -4,7 +4,7 @@ function plotRod(rodParams, bElement)
 %   Input:
 %       rodParams - the defined rod struct contains the physical and
 %                   numerical parameters of the simulated system
-%       bElement - the bending element list (nb x 3)
+%       bElement - the bending element list 
 
 x1 = rodParams.x(1:3:3*rodParams.nv-2);
 x2 = rodParams.x(2:3:3*rodParams.nv-1);
