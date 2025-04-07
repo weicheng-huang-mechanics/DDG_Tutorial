@@ -3,7 +3,7 @@ function plateParams = defPlateParams(node, edge, triangle, simParams)
 %   Input:
 %       node - Nodal coordinates of the rod (nv x 3)
 %       edge - Edge connectivity list (ne x 2)
-%       triangle - mesh element list(nb x 4)
+%       triangle - mesh element list (nt x 3)
 %       simParams - numerical parameters of the plate
 %   Output:
 %       plateParams - the defined plate struct contains the physical and
