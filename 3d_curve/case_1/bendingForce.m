@@ -10,6 +10,9 @@ function [dF, dJ] = bendingForce(node0, node1, node2, m1e, m2e, m1f, m2f, ...
 %         kappaBar - the natural curvature of the bending element
 %         l_k - voronoi length of the bending element
 %         EI - bending stiffness
+%         sign_1 - the sign for the first edge
+%         sing_2 - the sign for the second edge
+%
 %
 % OUTPUTS: dF - bending forces (11 x 1)
 %          dJ - bending jacobian (11 x 11)
