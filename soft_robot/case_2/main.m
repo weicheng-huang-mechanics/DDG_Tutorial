@@ -1,4 +1,4 @@
-%% DDG tutorial, Soft_Robot, Case 2: Fluid-structure interaction
+%% DDG tutorial, Soft Robots, Case 2: Fluid-structure interaction
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 
