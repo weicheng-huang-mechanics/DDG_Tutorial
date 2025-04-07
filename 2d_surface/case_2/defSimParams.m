@@ -1,5 +1,12 @@
 function simParams = defSimParams()
 
+% This function defines the a struct contains the numerical parameters
+%   Input:
+%
+%   Output:
+%       simParams - the defined struct contains the numerical parameters 
+%                   of the simulated system
+
 simParams = struct();
 
 % Total time
