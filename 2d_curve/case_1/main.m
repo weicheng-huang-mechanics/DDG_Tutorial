@@ -1,6 +1,7 @@
 %% DDG tutorial, 2d_curve, Case 1: Deflection of a cantilever beam under gravity 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
