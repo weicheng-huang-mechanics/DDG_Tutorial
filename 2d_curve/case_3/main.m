@@ -1,6 +1,7 @@
 %% DDG tutorial, 2d_curve, Case 3: Snapping of a pre-buckled beam
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
+% Zhuonan Hao, znhao@g.ucla.edu
 
 clear all;
 close all;
