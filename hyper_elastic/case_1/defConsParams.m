@@ -2,7 +2,8 @@ function consParams = defConsParams(rodParams)
 % This function defines the constrained parameters based on the physical
 % struct's boundary conditions. 
 %   Input:
-%       rodParams - define a cable struct
+%       rodParams - the defined cable struct contains the physical and
+%       numerical parameters of the simulated system
 %
 %   Output:
 %       consParams - the constrained parameters contain the constrained
