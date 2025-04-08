@@ -1,11 +1,11 @@
 function [Fs, Js] = getFs(rodParams, sElement)
 % This function computes the stretching force and jacobian of the simulated system. 
-% INPUTS: rodParams - the defined rod struct contains the physical and
+% Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %         sElement - the stretching element list
 %
-% OUTPUTS: Fs - stretching forces (2*nv x 1)
-%          Js - stretching jacobian (2*nv x 2*nv)
+% Output: Fs - stretching forces (2*nv x 1)
+%         Js - stretching jacobian (2*nv x 2*nv)
 
 Fs = zeros(rodParams.ndof, 1);
 Js = zeros(rodParams.ndof, rodParams.ndof);
