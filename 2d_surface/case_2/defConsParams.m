@@ -6,7 +6,7 @@ function consParams = defConsParams(rodParams)
 %       rodParams - define a shell struct
 %
 %   Output:
-%       consParams - the constrained parameters contains the constrained
+%       consParams - the constrained parameters contain the constrained
 %       index and unconstrained index of the discrete shell mode
 
 % Define fixed DOF
