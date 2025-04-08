@@ -5,8 +5,8 @@ function consParams = defConsParams(rodParams)
 %       rodParams - define a rotational membrane struct
 %
 %   Output:
-%       consParams - the constrained parameters contains the constrained
-%       index and unconstrained index of the discrete beam model
+%       consParams - the constrained parameters contain the constrained
+%       index and unconstrained index of the discrete membrane model
 
 % Define fixed DOF
 consInd = [2];
