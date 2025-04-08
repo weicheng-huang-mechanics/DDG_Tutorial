@@ -5,7 +5,7 @@ function u = rotateAxisAngle(v, t, angle)
 %   Input:
 %       v     - 3x1 input vector to be rotated
 %       t     - 3x1 unit vector representing the axis of rotation
-%       angle - Scalar rotation angle in radians
+%       angle - scalar rotation angle in radians
 %
 %   Output:
 %       u     - 3x1 rotated vector

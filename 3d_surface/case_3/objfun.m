@@ -3,14 +3,14 @@ function [xUncons, externalForce] = objfun(plateParams, simParams, consParams, s
 %        using Newton's method on unconstrained degrees of freedom.
 %
 %   Input:
-%       plateParams - Struct containing plate material and state parameters
-%       simParams  - Struct with numerical parameters
-%       consParams - Struct with constraints (unconstrained DOF indices)
-%       sElement   - Stretching element definitions
-%       bElement   - Bending element definitions
+%       plateParams - struct containing plate material and state parameters
+%       simParams  - struct with numerical parameters
+%       consParams - struct with constraints (unconstrained DOF indices)
+%       sElement   - stretching element definitions
+%       bElement   - bending element definitions
 %
 %   Output:
-%       xUncons    - Updated positions of unconstrained DOFs after convergence
+%       xUncons    - updated positions of unconstrained DOFs after convergence
 
 % Numerical parameter
 maximum_iter = simParams.maximum_iter;

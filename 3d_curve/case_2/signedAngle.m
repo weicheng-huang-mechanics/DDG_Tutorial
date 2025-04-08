@@ -10,7 +10,7 @@ function angle = signedAngle( u, v, n )
 %       n - 3x1 unit normal vector defining the orientation of the plane
 %
 %   Output:
-%       angle - Signed angle in radians, positive if the rotation from u to v
+%       angle - signed angle in radians, positive if the rotation from u to v
 %               follows the right-hand rule with respect to n, negative otherwise.
 
 w = cross(u,v);

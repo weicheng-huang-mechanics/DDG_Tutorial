@@ -4,7 +4,7 @@ function localNode = getVertex(x, i)
 % DOF vector.
 %
 %   Input:
-%       x - Global degrees of freedom vector (2*nv x 1), where each node 
+%       x - global degrees of freedom vector (2*nv x 1), where each node 
 %           has 2 DOFs
 %       i - Index of the node to extract (1-based)
 %

@@ -3,8 +3,8 @@ function localNode = getVertex(x, i)
 % DOF vector.
 %
 %   Input:
-%       x - Global degrees of freedom vector (ndof x 1)
-%       i - Index of the node to extract (1-based)
+%       x - global degrees of freedom vector (ndof x 1)
+%       i - index of the node to extract (1-based)
 %
 %   Output:
 %       localNode - a scalar containing the i-th node's coordinate

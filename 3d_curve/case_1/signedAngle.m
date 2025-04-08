@@ -9,7 +9,7 @@ function angle = signedAngle( u, v, n )
 %     n - 3x1 normal vector defining the orientation (for determining sign)
 %
 %   Output:
-%     angle - Signed angle (in radians) from u to v, measured around normal n
+%     angle - signed angle (in radians) from u to v, measured around normal n
 %
 
 w = cross(u,v);

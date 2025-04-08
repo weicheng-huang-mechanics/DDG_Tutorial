@@ -76,7 +76,7 @@ for timeStep=1:simParams.Nsteps
     
     % Plot figure
     if (mod(timeStep-1, simParams.plotStep) == 0)
-        plotBeam(rodParams.x);  
+        plotShell(rodParams.x);  
     end  
     
     % Cout data

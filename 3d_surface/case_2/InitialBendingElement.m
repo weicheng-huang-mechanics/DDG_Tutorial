@@ -7,7 +7,7 @@ function bElement = InitialBendingElement(plateParams, triangle)
 %       triangle  - the triangle mesh (nt x 3)
 %
 %   Output:
-%       bElement  - Struct array of bending elements with 
+%       bElement  - struct array of bending elements with 
 %                   geometric and physical properties
 
 EI = plateParams.EI;

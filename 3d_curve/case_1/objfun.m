@@ -3,14 +3,14 @@ function xUncons = objfun(rodParams, simParams, consParams, sElement, bElement)
 %        using Newton's method on unconstrained degrees of freedom.
 %
 %   Input:
-%       rodParams  - Struct containing rod material and state parameters
-%       simParams  - Struct with numerical parameters
-%       consParams - Struct with constraints (unconstrained DOF indices)
-%       sElement   - Stretching element definitions
-%       bElement   - Bending element definitions
+%       rodParams  - struct containing rod material and state parameters
+%       simParams  - struct with numerical parameters
+%       consParams - struct with constraints (unconstrained DOF indices)
+%       sElement   - stretching element definitions
+%       bElement   - bending element definitions
 %
 %   Output:
-%       xUncons    - Updated positions of unconstrained DOFs after convergence
+%       xUncons    - updated positions of unconstrained DOFs after convergence
 
 % Numerical parameter
 maximum_iter = simParams.maximum_iter;

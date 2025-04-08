@@ -5,11 +5,11 @@ function bElement = InitialBendingElement(rodParams, bend, sElement)
 %   Input:
 %       rodParams - the defined shell struct contains the physical and
 %                   numerical parameters of the simulated system
-%       bend      - Bending element list (nb x 2)
-%       sElement  - Struct array representing all edges in the shell
+%       bend      - bending element list (nb x 2)
+%       sElement  - struct array representing all edges in the shell
 %
 %   Output:
-%       bElement  - Struct array of bending elements with 
+%       bElement  - struct array of bending elements with 
 %                   geometric and physical properties
 
 

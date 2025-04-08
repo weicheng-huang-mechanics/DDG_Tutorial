@@ -2,9 +2,9 @@ function rodParams = defRodParams(node, edge, bend, simParams)
 
 % This function defines a rotational shell struct used for the DDG-based simulation
 %   Input:
-%       node - Nodal coordinates of the shell (nv x 2)
-%       edge - Edge connectivity list (ne x 2)
-%       bend - Bending element list (nb x 2)
+%       node - nodal coordinates of the shell (nv x 2)
+%       edge - edge connectivity list (ne x 2)
+%       bend - bending element list (nb x 2)
 %       simParams - numerical parameters of the shell
 %   Output:
 %       rodParams - the defined shell struct contains the physical and
