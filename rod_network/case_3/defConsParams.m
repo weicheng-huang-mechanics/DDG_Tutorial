@@ -5,8 +5,8 @@ function consParams = defConsParams(rodParams)
 %       rodParams - define a rod struct
 %
 %   Output:
-%       consParams - the constrained parameters contains the constrained
-%       index and unconstrained index of the discrete beam model
+%       consParams - the constrained parameters contain the constrained
+%       index and unconstrained index of the discrete rodd model
 
 consInd = [1;2;3;4;5;6;31;32;33;58;59;60;3*rodParams.nv+1];
 
