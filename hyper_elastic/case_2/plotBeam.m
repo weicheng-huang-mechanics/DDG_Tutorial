@@ -1,5 +1,5 @@
 function plotBeam(x)
-% plotBeam Visualizes the membrane by plotting its nodal positions.
+%   Visualizes the membrane by plotting its nodal positions.
 %
 %   Input:
 %       x - Global DOF vector (2*nv x 1)
