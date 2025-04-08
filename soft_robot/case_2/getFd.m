@@ -4,8 +4,8 @@ function [Fd, Jd] = getFd(rodParams, sElement)
 %                     numerical parameters of the simulated system
 %         sElement - the stretching element list
 %
-% Output: Fd - bending forces (ndof x 1)
-%         Jd - bending jacobian (ndof x ndof)
+% Output: Fd - bending forces (2*nv x 1)
+%         Jd - bending jacobian (2*nv x 2*nv)
 
 Fd = zeros(rodParams.ndof, 1);
 Jd = zeros(rodParams.ndof, rodParams.ndof);
