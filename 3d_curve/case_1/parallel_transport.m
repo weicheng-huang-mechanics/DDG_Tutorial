@@ -5,12 +5,12 @@ function d = parallel_transport(u, t1, t2)
 %   the vector remains unchanged. Otherwise, it is rotated accordingly to 
 %   preserve its orientation relative to the surface.
 %
-%   INPUTS:
+%   Input:
 %     u  - 3x1 vector to be transported
 %     t1 - 3x1 unit tangent vector representing the starting direction
 %     t2 - 3x1 unit tangent vector representing the target direction
 %
-%   OUTPUT:
+%   Output:
 %     d  - 3x1 vector representing the parallel transport of u from t1 to t2
 
 b = cross(t1, t2);
