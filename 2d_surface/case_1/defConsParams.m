@@ -7,7 +7,7 @@ function consParams = defConsParams(rodParams)
 %
 %   Output:
 %       consParams - the constrained parameters contain the constrained
-%       index and unconstrained index of the discrete beam mode
+%       index and unconstrained index of the discrete shell mode
 
 % Define fixed DOF
 consInd = [1;2*rodParams.nv-1;2*rodParams.nv];
