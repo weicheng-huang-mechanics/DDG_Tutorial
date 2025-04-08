@@ -1,11 +1,11 @@
 function [Fs, Js] = getFs(plateParams, sElement)
 % This function computes the stretching force and jacobian of the simulated system. 
-% INPUTS: rodParams - the defined plate struct contains the physical and
+% Input:  rodParams - the defined plate struct contains the physical and
 %                     numerical parameters of the simulated system
 %         sElement - the stretching element list
 %
-% OUTPUTS: Fs - stretching forces (ndof x 1)
-%          Js - stretching jacobian (ndof x ndof)
+% Output: Fs - stretching forces (ndof x 1)
+%         Js - stretching jacobian (ndof x ndof)
 
 Fs = zeros(plateParams.ndof, 1);
 Js = zeros(plateParams.ndof, plateParams.ndof);
