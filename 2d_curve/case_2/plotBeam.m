@@ -1,5 +1,5 @@
 function plotBeam(x)
-% plotBeam Visualizes the beam by plotting its nodal positions.
+%   Visualizes the beam by plotting its nodal positions.
 %
 %   Input:
 %       x - Global DOF vector (2*nv x 1)
