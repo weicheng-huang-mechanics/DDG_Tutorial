@@ -2,7 +2,7 @@ function [dF, dJ] = stretchingForce(node0, node1, l_k, EA)
 % This function computes the stretching force and jacobian of a stretching element.
 % Input:  node0 - position of the first node in the stretching element
 %         node1 - position of the second node in the stretching element
-%         l_k - voronoi length of the bending element
+%         l_k - reference length of the stretching element
 %         EA - stretching stiffness
 %
 % Output: dF - stretching forces (4 x 1)
