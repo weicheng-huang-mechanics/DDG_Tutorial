@@ -3,8 +3,8 @@ function [Fg, Jg] = getFg(rodParams)
 % Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %
-% Output: Fg - gravitational forces (ndof x 1)
-%         Jg - gravitational jacobian (ndof x ndof)
+% Output: Fg - gravitational forces (2*nv x 1)
+%         Jg - gravitational jacobian (2*nv x 2*nv)
 
 Fg = rodParams.m .* rodParams.garr;
 Jg = zeros(rodParams.ndof, rodParams.ndof);
