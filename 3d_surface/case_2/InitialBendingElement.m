@@ -1,8 +1,8 @@
-function bElement = InitialBendingElement(rodParams, triangle)
+function bElement = InitialBendingElement(plateParams, triangle)
 % This function initializes the bending elements for a discrete plate
 %
 %   Input:
-%       rodParams - the defined plate struct contains the physical and
+%       plateParams - the defined plate struct contains the physical and
 %                   numerical parameters of the simulated system
 %       triangle  - the triangle mesh (nt x 3)
 %
@@ -10,9 +10,9 @@ function bElement = InitialBendingElement(rodParams, triangle)
 %       bElement  - Struct array of bending elements with 
 %                   geometric and physical properties
 
-EI = rodParams.EI;
-x = rodParams.x;
-nt = rodParams.nt;
+EI = plateParams.EI;
+x = plateParams.x;
+nt = plateParams.nt;
 
 bElement = struct('triIndex', {}, 'nodeIndex', {}, 'globalIndex', {}, 'nBar', {}, 'EI_local', {});
 
