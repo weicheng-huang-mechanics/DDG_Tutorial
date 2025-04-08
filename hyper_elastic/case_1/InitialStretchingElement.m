@@ -1,8 +1,8 @@
 function sElement = InitialStretchingElement(rodParams, edge)
-% This function initializes stretching elements for a discrete rod.
+% This function initializes stretching elements for a discrete cable.
 %
 %   Input:
-%       rodParams - the defined rod struct contains the physical and
+%       rodParams - the defined cable struct contains the physical and
 %                   numerical parameters of the simulated system
 %       edge      - Edge connectivity list (ne x 2)
 %
