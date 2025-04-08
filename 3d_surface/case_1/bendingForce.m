@@ -1,8 +1,8 @@
 function [dF, dJ] = bendingForce(x_1, x_2, x_3, x_4, nBar_Scale, EI)
-% This function computes the bending force and jacobian of a bending
-% element. Here, a bending element is contains (x_1, x_2, x_3, x_4),
-% where (x_1, x_2, x_3) is the first triangular mesh and (x_2, x_3, x_4) is
-% the second triangular mesh
+% This function computes the bending force and jacobian of a bending element.
+% Here, a bending element is contains (x_1, x_2, x_3, x_4),
+% where (x_1, x_2, x_3) is the first triangular mesh,
+% and (x_2, x_3, x_4) is the second triangular mesh
 % Input:  x_1 - position of the first node in the bending element
 %         x_2 - position of the second node in the bending element
 %         x_3 - poisiton of the third node in the bending element
