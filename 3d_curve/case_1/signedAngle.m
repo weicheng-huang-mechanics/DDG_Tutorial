@@ -3,12 +3,12 @@ function angle = signedAngle( u, v, n )
 %   about the normal vector n. The sign of the angle is determined by the direction 
 %   of the cross product of u and v relative to n.
 %
-%   INPUTS:
+%   Input:
 %     u - 3x1 vector (first direction)
 %     v - 3x1 vector (second direction)
 %     n - 3x1 normal vector defining the orientation (for determining sign)
 %
-%   OUTPUT:
+%   Output:
 %     angle - Signed angle (in radians) from u to v, measured around normal n
 %
 
