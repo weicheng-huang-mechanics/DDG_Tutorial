@@ -1,10 +1,10 @@
 function [Fc, Jc] = getFc(rodParams)
-% This function computes the bending force and jacobian of the simulated system.
-% INPUTS: rodParams - the defined rod struct contains the physical and
+% This function computes the contact force and jacobian of the simulated system.
+% Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %
-% OUTPUTS: Fc - contact forces (ndof x 1)
-%          Jc - contact jacobian (ndof x ndof)
+% Output: Fc - contact forces (ndof x 1)
+%         Jc - contact jacobian (ndof x ndof)
 
 Fc = zeros(rodParams.ndof, 1);
 Jc = zeros(rodParams.ndof, rodParams.ndof);
