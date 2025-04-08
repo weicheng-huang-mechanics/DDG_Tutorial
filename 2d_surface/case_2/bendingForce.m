@@ -1,8 +1,7 @@
 function [dF, dJ] = bendingForce(node0, node1, node2, kappaBar1, kappaBar2, l0, r0, EI, nu)
 
-% This function computes the bending force and jacobian of a bending
-% element.
-% INPUTS: node0 - position of the first node in the bending element
+% This function computes the bending force and jacobian of a bending element.
+% Input:  node0 - position of the first node in the bending element
 %         node1 - position of the second node in the bending element
 %         node2 - poisiton of the third node in the bending element
 %         kappaBar1 - the natural curvature of the bending element
@@ -12,8 +11,8 @@ function [dF, dJ] = bendingForce(node0, node1, node2, kappaBar1, kappaBar2, l0, 
 %         EI - bending stiffness
 %         nu - Poisson's ratio
 %
-% OUTPUTS: dF - bending forces (6 x 1)
-%          dJ - bending jacobian (6 x 6)
+% Output: dF - bending forces (6 x 1)
+%         dJ - bending jacobian (6 x 6)
 
 dF = zeros(6,1);
 dJ = zeros(6,6);
