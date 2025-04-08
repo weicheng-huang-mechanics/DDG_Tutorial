@@ -1,7 +1,7 @@
 function rodParams = defRodParams(node, edge, simParams)
 % This function defines a cable struct used for the DDG-based simulation
 %   Input:
-%       node - Nodal coordinates of the rod (nv x 2)
+%       node - Nodal coordinates of the cable (nv x 2)
 %       edge - Edge connectivity list (ne x 2)
 %       simParams - numerical parameters of the cable
 %   Output:
