@@ -3,8 +3,8 @@ function [Fm, Jm] = getFm(rodParams, sElement)
 % Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %
-% Output: Fm - magnetic forces (ndof x 1)
-%         Jm - magnetic jacobian (ndof x ndof)
+% Output: Fm - magnetic forces (2*nv x 1)
+%         Jm - magnetic jacobian (2*nv x 2*nv)
 
 Fm = zeros(rodParams.ndof, 1);
 Jm = zeros(rodParams.ndof, rodParams.ndof);
