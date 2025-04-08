@@ -2,7 +2,7 @@ function u = rotateAxisAngle(v, t, angle)
 %   This function rotates the input vector v around the 
 %   axis t by the given angle (in radians), using the axis-angle rotation formula.
 %
-%   Inputs:
+%   Input:
 %       v     - 3x1 input vector to be rotated
 %       t     - 3x1 unit vector representing the axis of rotation
 %       angle - Scalar rotation angle in radians
