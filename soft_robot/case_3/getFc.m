@@ -3,8 +3,8 @@ function [Fc, Jc] = getFc(rodParams)
 % Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %
-% Output: Fc - contact forces (ndof x 1)
-%         Jc - contact jacobian (ndof x ndof)
+% Output: Fc - contact forces (2*nv x 1)
+%         Jc - contact jacobian (2*nv x 2*nv)
 
 Fc = zeros(rodParams.ndof, 1);
 Jc = zeros(rodParams.ndof, rodParams.ndof);
