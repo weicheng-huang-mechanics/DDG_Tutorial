@@ -3,7 +3,7 @@ function d = parallel_transport(u, t1, t2)
 %   surface or curve, from the local frame defined by tangent vector t1 
 %   to the one defined by t2. It preserves the directional relationship 
 %   of u relative to t1 as it's mapped to the frame of t2.
-%   Inputs:
+%   Input:
 %       u  - 3x1 vector to be transported
 %       t1 - 3x1 unit tangent vector at the starting point
 %       t2 - 3x1 unit tangent vector at the ending point
