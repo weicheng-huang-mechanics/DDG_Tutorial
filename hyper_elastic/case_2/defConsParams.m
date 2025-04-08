@@ -2,7 +2,7 @@ function consParams = defConsParams(rodParams)
 % This function defines the constrained parameters based on the physical
 % struct's boundary conditions. 
 %   Input:
-%       rodParams - define a rod struct (beam is a 2D rod)
+%       rodParams - define a rotational membrane struct
 %
 %   Output:
 %       consParams - the constrained parameters contains the constrained
