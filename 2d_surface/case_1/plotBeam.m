@@ -1,6 +1,6 @@
 function plotBeam(x)
 
-% plotBeam Visualizes the shell by plotting its nodal positions.
+%   Visualizes the shell by plotting its nodal positions.
 %
 %   Input:
 %       x - Global DOF vector (2*nv x 1)
