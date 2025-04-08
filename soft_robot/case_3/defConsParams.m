@@ -8,9 +8,6 @@ function consParams = defConsParams(rodParams)
 %       consParams - the constrained parameters contain the constrained
 %       index and unconstrained index of the discrete beam model
 
-% Define fixed DOF
-%consInd = linspace(1,2*49,2*49);
-
 consInd = [];
 
 dummyInd = 1:rodParams.ndof;
