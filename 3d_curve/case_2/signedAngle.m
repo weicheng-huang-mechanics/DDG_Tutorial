@@ -4,7 +4,7 @@ function angle = signedAngle( u, v, n )
 %   angle = SIGNEDANGLE(u, v, n) returns the signed angle (in radians) from
 %   vector u to vector v, measured in the plane defined by the normal vector n.
 %
-%   Inputs:
+%   Input:
 %       u - 3x1 vector (starting direction)
 %       v - 3x1 vector (ending direction)
 %       n - 3x1 unit normal vector defining the orientation of the plane
