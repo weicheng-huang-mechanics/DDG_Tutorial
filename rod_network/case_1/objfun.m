@@ -7,7 +7,6 @@ function xUncons = objfun(rodParams, simParams, consParams, sElement)
 %       simParams  - Struct with numerical parameters
 %       consParams - Struct with constraints (unconstrained DOF indices)
 %       sElement   - Stretching element definitions
-%       bElement   - Bending element definitions
 %
 %   Output:
 %       xUncons    - Updated positions of unconstrained DOFs after convergence
