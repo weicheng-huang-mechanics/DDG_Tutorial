@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Axisymmetric plate 
-fprintf('Axisymmetric plate simulation \n');
+fprintf('Inflation of an axisymmetric plate \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

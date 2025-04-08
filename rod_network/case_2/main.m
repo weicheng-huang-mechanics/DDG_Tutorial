@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Buckling of gridshell \n');
+fprintf('Form-finding of a gridshell \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

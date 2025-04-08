@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Soft crawling robot \n');
+fprintf('Frictional contact \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

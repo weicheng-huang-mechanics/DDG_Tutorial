@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Net under gravity \n');
+fprintf('Deflection of a flexible net under gravity \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

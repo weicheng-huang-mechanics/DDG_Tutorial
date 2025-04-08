@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Beam under magnetic field \n');
+fprintf('Magnetic actuation \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

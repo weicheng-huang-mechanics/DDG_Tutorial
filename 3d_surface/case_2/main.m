@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Plate under gravity \n');
+fprintf('Plate wrinkling under gravity \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete cable simulation
-fprintf('Cable under loading \n');
+fprintf('Hyperelastic planar cable \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Beam buckling simulation \n');
+fprintf('Buckling of a compressive beam \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

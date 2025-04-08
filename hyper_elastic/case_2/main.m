@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Axisymmetric membrane simulation
-fprintf('Inflection of axisymmetric membrane \n');
+fprintf('Hyperelastic axisymmetric membrane \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

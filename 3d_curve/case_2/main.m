@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete ribbon simulation
-fprintf('Shear-induced bifurcation of a pre-buckled ribbon \n');
+fprintf('Bifurcation of a pre-buckled ribbon \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

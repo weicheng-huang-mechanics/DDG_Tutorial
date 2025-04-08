@@ -1,4 +1,4 @@
-%% DDG tutorial, 2d_surface, Case 1: Snap-through of the axisymmetric shell
+%% DDG tutorial, 2d_surface, Case 2: Eversion of an axisymmetric shell cap
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 % Zhuonan Hao, znhao@g.ucla.edu
@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Axisymmetric shell simulation
-fprintf('Snapping of axisymmetric shell cap \n');
+fprintf('Eversion of an axisymmetric shell cap \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

@@ -7,7 +7,7 @@ clear all;
 close all;
 clc;
 
-fprintf('Beam under gravity \n');
+fprintf('Deflection of a cantilever beam under gravity \n');
 
 %% Define geometry, connections, physical parameters, and numerical parameters
 % input nodes

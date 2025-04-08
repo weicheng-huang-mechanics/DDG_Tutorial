@@ -7,6 +7,8 @@ clear all;
 close all;
 clc;
 
+fprintf('Single DOF system  \n');
+
 %% Define a struct for physical system
 systemParams = struct();
 

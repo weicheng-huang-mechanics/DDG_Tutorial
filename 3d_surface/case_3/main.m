@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete Shell simulation
-fprintf('Shell indentation \n');
+fprintf('Indentation of a cylindrical shell \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

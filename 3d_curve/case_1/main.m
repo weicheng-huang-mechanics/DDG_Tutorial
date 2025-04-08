@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete rod simulation
-fprintf('3D helix under graity \n');
+fprintf('Deformation of a 3D helix under gravity \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Soft swimming robot \n');
+fprintf('Fluid-structure interaction \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

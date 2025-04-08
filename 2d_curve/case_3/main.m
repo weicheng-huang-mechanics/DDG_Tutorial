@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Beam snapping simulation \n');
+fprintf('Snapping of a pre-buckled beam \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');

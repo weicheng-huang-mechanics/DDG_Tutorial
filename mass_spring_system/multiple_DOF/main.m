@@ -1,4 +1,4 @@
-%% DDG tutorial, single DOF system 
+%% DDG tutorial, multiple DOF system 
 % Weicheng Huang, weicheng.huang@ncl.ac.uk
 % Dezhong Tong, dezhong@umich.edu
 % Zhuonan Hao, znhao@g.ucla.edu
@@ -7,7 +7,7 @@ clear all;
 close all;
 clc;
 
-fprintf('Multi DOF simulation: \n');
+fprintf('Multiple DOF system \n');
 
 %% Define a struct for physical system
 systemParams = struct();

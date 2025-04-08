@@ -8,7 +8,7 @@ close all;
 clc;
 
 % Discrete simulation
-fprintf('Lattice structure under gravity \n');
+fprintf('Deformation of a lattice grid under gravity \n');
 
 % input nodes
 node = importdata('inputfile/node.txt');
