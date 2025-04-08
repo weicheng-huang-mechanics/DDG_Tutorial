@@ -4,7 +4,7 @@ function [xUncons, reforce] = objfun(rodParams, simParams, consParams, sElement,
 %        using Newton's method on unconstrained degrees of freedom.
 %
 %   Input:
-%       rodParams  - Struct containing rod material and state parameters
+%       rodParams  - Struct containing shell material and state parameters
 %       simParams  - Struct with numerical parameters
 %       consParams - Struct with constraints (unconstrained DOF indices)
 %       sElement   - Stretching element definitions
