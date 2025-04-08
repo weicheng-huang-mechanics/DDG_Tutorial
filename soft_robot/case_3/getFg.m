@@ -1,6 +1,6 @@
 function [Fg, Jg] = getFg(rodParams)
 % This function computes the gravitational force and jacobian of the simulated system. 
-% Input:  rodParams - the defined rod struct contains the physical and
+% Input:  rodParams - the defined beam struct contains the physical and
 %                     numerical parameters of the simulated system
 %
 % Output: Fg - gravitational forces (2*nv x 1)
