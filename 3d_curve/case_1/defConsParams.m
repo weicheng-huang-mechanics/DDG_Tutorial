@@ -6,7 +6,7 @@ function consParams = defConsParams(rodParams)
 %
 %   Output:
 %       consParams - the constrained parameters contains the constrained
-%       index and unconstrained index of the discrete beam model
+%       index and unconstrained index of the discrete rod model
 
 % Define fixed DOF
 consInd = [1;2;3;4;5;6;3*rodParams.nv+1];
