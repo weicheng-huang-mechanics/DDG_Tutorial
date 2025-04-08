@@ -5,7 +5,7 @@ function consParams = defConsParams(plateParams)
 %       plateParams - define a plate struct
 %
 %   Output:
-%       consParams - the constrained parameters contains the constrained
+%       consParams - the constrained parameters contain the constrained
 %       index and unconstrained index of the discrete plate model
 
 % Define fixed DOF
