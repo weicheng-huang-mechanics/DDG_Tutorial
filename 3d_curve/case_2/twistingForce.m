@@ -6,8 +6,7 @@ function [dF, dJ] = twistingForce(node0, node1, node2, theta_e, theta_f, refTwis
 %         node2 - poisiton of the third node in the bending element
 %         theta_e - rotation angle of the first edge 
 %         theta_f - rotation angle of the second edge
-%         refTwist - the twist between the reference frames via time
-%         marches
+%         refTwist - the twist between the reference frames via time marches
 %         l_k - voronoi length of the bending element
 %         GJ - twisting stiffness
 %         sign_1 - the sign for the first edge
