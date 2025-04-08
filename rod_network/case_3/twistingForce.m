@@ -1,20 +1,18 @@
 function [dF, dJ] = twistingForce(node0, node1, node2, theta_e, theta_f, refTwist, ... 
     l_k, GJ, sign_1, sign_2)
-% This function computes the twisting force and jacobian of a twisting
-% element.
-% INPUTS: node0 - position of the first node in the bending element
+% This function computes the twisting force and jacobian of a twisting element.
+% Input:  node0 - position of the first node in the bending element
 %         node1 - position of the second node in the bending element
 %         node2 - poisiton of the third node in the bending element
 %         theta_e - rotation angle of the first edge 
 %         theta_f - rotation angle of the second edge
-%         refTwist - the twist between the reference frames via time
-%         marches
+%         refTwist - the twist between the reference frames via time marches
 %         l_k - voronoi length of the bending element
 %         GJ - twisting stiffness
 %         sign_1 - the sign for the first edge
 %         sing_2 - the sign for the second edge
 %
-% OUTPUTS: dF - twisting forces (11 x 1)
+% Output:  dF - twisting forces (11 x 1)
 %          dJ - twisting jacobian (11 x 11)
 
 gradTwist = zeros(11,1);
