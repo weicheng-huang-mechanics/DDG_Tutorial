@@ -7,16 +7,15 @@ clear all;
 close all;
 clc;
 
-% Axisymmetric plate 
 fprintf('Inflation of an axisymmetric plate \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input bending element
+% Input bending element
 bend = importdata('inputfile/bend.txt');
 
 % Numerical parameter

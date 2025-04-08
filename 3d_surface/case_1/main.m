@@ -7,16 +7,15 @@ clear all;
 close all;
 clc;
 
-% Discrete simulation
 fprintf('Deflection of a plate under gravity \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input triangular element
+% Input triangular element
 triangle = importdata('inputfile/triangle.txt');
 
 % Numerical parameter

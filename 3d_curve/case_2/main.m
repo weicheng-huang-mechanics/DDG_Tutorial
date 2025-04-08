@@ -7,16 +7,15 @@ clear all;
 close all;
 clc;
 
-% Discrete ribbon simulation
 fprintf('Bifurcation of a pre-buckled ribbon \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input bending element
+% Input bending element
 bend = importdata('inputfile/bend.txt');
 
 % Numerical parameter

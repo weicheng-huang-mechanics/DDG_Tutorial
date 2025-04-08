@@ -7,16 +7,15 @@ clear all;
 close all;
 clc;
 
-% Discrete simulation
 fprintf('Plate wrinkling under gravity \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input triangular element
+% Input triangular element
 triangle = importdata('inputfile/triangle.txt');
 
 % Numerical parameter
@@ -41,7 +40,6 @@ ctime = 0.0;
 % Get constrained dof and unconstrained dof
 plateParams.xCons  = plateParams.x(consParams.consInd);
 plateParams.xUncons = plateParams.x(consParams.unconsInd);
-
 
 % Open file for writing
 fileID = fopen('data.txt', 'w'); 

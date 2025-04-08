@@ -7,13 +7,12 @@ clear all;
 close all;
 clc;
 
-% Discrete cable simulation
 fprintf('Hyperelastic planar cable \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
 % Numerical parameter

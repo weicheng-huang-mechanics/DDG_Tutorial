@@ -7,16 +7,15 @@ clear all;
 close all;
 clc;
 
-% Discrete Shell simulation
 fprintf('Indentation of a cylindrical shell \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input triangular element
+% Input triangular element
 triangle = importdata('inputfile/triangle.txt');
 
 % Numerical parameter

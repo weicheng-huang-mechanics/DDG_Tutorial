@@ -10,13 +10,13 @@ clc;
 % Discrete rod simulation
 fprintf('Deformation of a 3D helix under gravity \n');
 
-% input nodes
+% Input nodes
 node = importdata('inputfile/node.txt');
 
-% input stretching element
+% Input stretching element
 edge = importdata('inputfile/edge.txt');
 
-% input bending element
+% Input bending element
 bend = importdata('inputfile/bend.txt');
 
 % Numerical parameter
