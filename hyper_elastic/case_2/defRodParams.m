@@ -1,11 +1,11 @@
 function rodParams = defRodParams(node, edge, simParams)
 % This function defines a membrane struct used for the DDG-based simulation
 %   Input:
-%       node - Nodal coordinates of the rod (nv x 2)
+%       node - Nodal coordinates of the membrane (nv x 2)
 %       edge - Edge connectivity list (ne x 2)
 %       simParams - numerical parameters of the membrane
 %   Output:
-%       rodParams - the defined rod struct contains the physical and
+%       rodParams - the defined membrane struct contains the physical and
 %       numerical parameters of the simulated system
 
 % Define struct
