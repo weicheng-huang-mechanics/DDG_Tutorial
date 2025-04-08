@@ -1,5 +1,5 @@
 function simParams = defSimParams()
-% This function defines a struct that contains the numerical parameters
+% This function defines the struct that contains the numerical parameters
 %   Input:
 %
 %   Output:
