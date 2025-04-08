@@ -1,7 +1,6 @@
 function [dF, dJ] = bendingForce(node0, node1, node2, kappaBar1, kappaBar2, l0, r0, EI, nu)
 
-% This function computes the bending force and jacobian of a bending
-% element.
+% This function computes the bending force and jacobian of a bending element.
 % Input:  node0 - position of the first node in the bending element
 %         node1 - position of the second node in the bending element
 %         node2 - poisiton of the third node in the bending element
