@@ -1,4 +1,4 @@
-# [A tutorial for discrete differential geometry method](https://zhuonanhao.github.io/DDG_Tutorial_Website/)
+# [A tutorial for discrete differential geometry method](http://www.ddgflexsim.com/)
 
 This is a MATLAB tutorial for the nonlinear numerical simulation of flexible structures using the discrete differential geometry method. Note that this MATLAB-based code is for demonstration purposes and its
 computational speed may be limited. The fast C/C++ version can be found [here](https://github.com/weicheng-huang-mechanics/DDG_Tutorial_Fast).
