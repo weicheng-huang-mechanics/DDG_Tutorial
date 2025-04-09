@@ -1,15 +1,15 @@
 function [dF, dJ] = getF(x_new, x_old, u_old, t_new, systemParams, simParams)
-% This function computes the force and jacobian of the simulated system. In
-% this case the simulated system is a M-DOFs mass-spring-damper system
-% INPUTS: x_new - nodal position at the current time step.
+% This function computes the force and jacobian of the simulated system.
+% In this case the simulated system is a M-DOFs mass-spring-damper system.
+% Input:  x_new - nodal position at the current time step.
 %         x_old - nodal position at the previous time step.
 %         u_old - nodal velocity at the previous time step.
 %         t_new - current time stamp
 %         systemParams - the physical system struct
 %         simParams - the simulation parameters struct
 %
-% OUTPUTS: force - the sum of the forces for the simulated system.
-%          jacob - the jacobian of the simulated system.
+% Output: force - the sum of the forces for the simulated system.
+%         jacob - the jacobian of the simulated system.
 
 
 
