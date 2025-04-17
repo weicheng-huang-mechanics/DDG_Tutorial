@@ -41,47 +41,23 @@ for c=1:rodParams.numLeg
     if (d <= dBar)
         dEnergydD = - 2 * (d - dBar) * log(d / dBar) - (d - dBar) * (d - dBar) / d;
         
-        %local_v = (rodParams.x( 2*(rodParams.legEnd(c)-1) + 1) - rodParams.x0( 2*(rodParams.legEnd(c)-1) + 1)) / rodParams.dt;
-        
         local_v = rodParams.u( 2*(rodParams.legEnd(c)-1) + 1);
         
         vTangent(1) = local_v;
         vTangent(2) = 0.0;
-
-        % the column friction is
-        % 1. when v > epsilon, f_fr = mu * lam
-        % 2. when v < epsilon, f_fr = f * mu * lam
-        %    f = - v^2/epsilon^2 + 2 * v / epsilon
-        %    f'= - 2*v/epsilon + 2/epsilon;
-        %  dFf = mu * lam * ((f' * |u_t| - f)/|u_t|^3 * u_t^2 + f1 /
-        % |u_t|)
         
         if ( norm(vTangent) >= epsilonV )
-            f = 1.0;
-            df = 0;
+            fVelocity = 1.0;
             tK = vTangent / norm(vTangent);
         else
-            f = - ( norm(vTangent) * norm(vTangent) ) / (epsilonV * epsilonV) + 2 * norm(vTangent) / epsilonV;
-            df = - 2 * norm(vTangent)/ (epsilonV * epsilonV) + 2 / epsilonV;
+            fVelocity = - ( norm(vTangent) * norm(vTangent) ) / (epsilonV * epsilonV) + 2 * norm(vTangent) / epsilonV;
             tK = vTangent / (norm(vTangent) + 1e-15);
         end
         
-        friction = mu * abs(stiffness * dEnergydD) * f * tK(1);
-        lam = abs(stiffness * dEnergydD);
-        u_t = local_v;
-        dfriction = mu * lam * ((df * abs(u_t) - f)/(abs(u_t)^3) * u_t^2 + f/abs(u_t));
-
-
-        if (norm(vTangent) == 0)
-            friction = 0;
-            dfriction = 0;
-        end
-
-
+        friction = mu * abs(stiffness * dEnergydD) * fVelocity * tK(1);
+        
         Fc(2 * (rodParams.legEnd(c) - 1) + 1) = - friction;
         
-        % Jc(2 * (rodParams.legEnd(c) - 1) + 1, 2 * (rodParams.legEnd(c) - 1) + 1) = - dfriction;
-
     end
 end
 
