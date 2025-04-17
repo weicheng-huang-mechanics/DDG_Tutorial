@@ -101,3 +101,13 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 
 ##  Soft crawling robot
 <br/><img src='assets/robot_3.gif' width="600">
+
+### Citation
+If our work has helped your research, please cite the following paper.
+```
+@article{huang2025DDG,
+    author={Huang, Weicheng and Hao, Zhuonan and Li, Jiahao and Tong, Dezhong and Guo, Kexin and Zhang, Yingchao and Gao, Huajian and Hsia, K. Jimmy and Liu, Mingchao},
+    title={A tutorial on simulating nonlinear behaviors of flexible structures with the discrete differential geometry (DDG) method},
+    journal={arXiv preprint arXiv:2504.11417},
+}
+```
