@@ -1,10 +1,11 @@
 function [Fc, Jc] = getFc(rodParams)
-% This function computes the contact force and jacobian of the simulated system.
-% Input:  rodParams - the defined beam struct contains the physical and
+% This function computes the bending force and jacobian of the simulated 
+% system. In this case the simulated system is a 2D beam
+% INPUTS: rodParams - the defined rod struct contains the physical and
 %                     numerical parameters of the simulated system
 %
-% Output: Fc - contact forces (2*nv x 1)
-%         Jc - contact jacobian (2*nv x 2*nv)
+% OUTPUTS: Fc - contact forces (ndof x 1)
+%          Jc - contact jacobian (ndof x ndof)
 
 Fc = zeros(rodParams.ndof, 1);
 Jc = zeros(rodParams.ndof, rodParams.ndof);
@@ -46,19 +47,41 @@ for c=1:rodParams.numLeg
         
         vTangent(1) = local_v;
         vTangent(2) = 0.0;
+
+        % the column friction is
+        % 1. when v > epsilon, f_fr = mu * lam
+        % 2. when v < epsilon, f_fr = f * mu * lam
+        %    f = - v^2/epsilon^2 + 2 * v / epsilon
+        %    f'= - 2*v/epsilon + 2/epsilon;
+        %  dFf = mu * lam * ((f' * |u_t| - f)/|u_t|^3 * u_t^2 + f1 /
+        % |u_t|)
         
         if ( norm(vTangent) >= epsilonV )
-            fVelocity = 1.0;
+            f = 1.0;
+            df = 0;
             tK = vTangent / norm(vTangent);
         else
-            fVelocity = - ( norm(vTangent) * norm(vTangent) ) / (epsilonV * epsilonV) + 2 * norm(vTangent) / epsilonV;
+            f = - ( norm(vTangent) * norm(vTangent) ) / (epsilonV * epsilonV) + 2 * norm(vTangent) / epsilonV;
+            df = - 2 * norm(vTangent)/ (epsilonV * epsilonV) + 2 / epsilonV;
             tK = vTangent / (norm(vTangent) + 1e-15);
         end
         
-        friction = mu * abs(stiffness * dEnergydD) * fVelocity * tK(1);
-        
+        friction = mu * abs(stiffness * dEnergydD) * f * tK(1);
+        lam = abs(stiffness * dEnergydD);
+        u_t = local_v;
+        dfriction = mu * lam * ((df * abs(u_t) - f)/(abs(u_t)^3) * u_t^2 + f/abs(u_t));
+
+
+        if (norm(vTangent) == 0)
+            friction = 0;
+            dfriction = 0;
+        end
+
+
         Fc(2 * (rodParams.legEnd(c) - 1) + 1) = - friction;
         
+        % Jc(2 * (rodParams.legEnd(c) - 1) + 1, 2 * (rodParams.legEnd(c) - 1) + 1) = - dfriction;
+
     end
 end
 
