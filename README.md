@@ -3,7 +3,9 @@
 This is a MATLAB tutorial for the nonlinear numerical simulation of flexible structures using the discrete differential geometry method. Note that this MATLAB-based code is for demonstration purposes and its
 computational speed may be limited. The fast C/C++ version can be found [here](https://github.com/weicheng-huang-mechanics/DDG_Tutorial_Fast).
 
+
 # Repository structure
+
 
 - DDG_Tutorial
 
@@ -101,6 +103,7 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 
 ##  Soft crawling robot
 <br/><img src='assets/robot_3.gif' width="600">
+
 
 ### Citation
 If our work has helped your research, please cite the following paper.
