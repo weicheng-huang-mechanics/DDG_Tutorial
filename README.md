@@ -108,9 +108,10 @@ computational speed may be limited. The fast C/C++ version can be found [here](h
 ### Citation
 If our work has helped your research, please cite the following paper.
 ```
-@article{huang2025DDG,
-    author={Huang, Weicheng and Hao, Zhuonan and Li, Jiahao and Tong, Dezhong and Guo, Kexin and Zhang, Yingchao and Gao, Huajian and Hsia, K. Jimmy and Liu, Mingchao},
-    title={A tutorial on simulating nonlinear behaviors of flexible structures with the discrete differential geometry (DDG) method},
-    journal={arXiv preprint arXiv:2504.11417},
+@article{huang2025tutorial,
+  title={A tutorial on simulating nonlinear behaviors of flexible structures with the discrete differential geometry (DDG) method},
+  author={Huang, Weicheng and Hao, Zhuonan and Li, Jiahao and Tong, Dezhong and Guo, Kexin and Zhang, Yingchao and Gao, Huajian and Hsia, K Jimmy and Liu, Mingchao},
+  journal={arXiv preprint arXiv:2504.11417},
+  year={2025}
 }
 ```
