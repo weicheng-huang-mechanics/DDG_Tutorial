@@ -1,4 +1,4 @@
-function xUncons = objfun(rodParams, simParams, consParams, sElement, bElement)
+function [xUncons, sElement, bElement] = objfun(rodParams, simParams, consParams, sElement, bElement)
 % This function solves for the equilibrium/dynamic state of a simulated system
 %        using Newton's method on unconstrained degrees of freedom.
 %
