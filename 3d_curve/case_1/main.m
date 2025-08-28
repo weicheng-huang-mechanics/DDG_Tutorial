@@ -53,7 +53,7 @@ for timeStep=1:simParams.Nsteps
     rodParams.x(consParams.unconsInd) = rodParams.x(consParams.unconsInd) + rodParams.u(consParams.unconsInd) * rodParams.dt;
 
     % Solver
-    xUncons = objfun(rodParams, simParams, consParams, sElement, bElement);
+    [xUncons, sElement, bElement] = objfun(rodParams, simParams, consParams, sElement, bElement);
     
     % Update DOF
     rodParams.x(consParams.unconsInd) = xUncons;
